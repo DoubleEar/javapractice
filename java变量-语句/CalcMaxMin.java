@@ -7,7 +7,6 @@ public class CalcMaxMin{
         int min=(a<b)?(a<c?a:c):(b<c?b:c);
 		System.out.println(max);
 		System.out.println(min);
-		
 	}
 }
 			
