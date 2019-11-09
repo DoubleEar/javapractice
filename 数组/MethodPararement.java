@@ -32,9 +32,6 @@ public class MethodPararement{
 	 }
 	return -1;
 	}*/
-	//public static void int[] copyOf(int[]a,int newLength){
-		
-	//}
 	public static void main(String[] args){
 		Scanner scanner=new Scanner(System.in);
 		int[]a = new int[5];
@@ -46,8 +43,6 @@ public class MethodPararement{
 		/*int [] a={1,2,3,4};
 		int ret=binarySearch(a,4);
 		System.out.println(ret);*/
-		
-
 	}
 }
 	
