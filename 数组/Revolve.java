@@ -5,7 +5,7 @@ class Revolve{
 		int[] b=new int[a.length];
 		if(n>a.length)
 		{
-			n=n-a.length;
+			n%=a.length;
 		}
 		for(int i=0;i<a.length-n;i++){
 			b[i+n]=a[i];
