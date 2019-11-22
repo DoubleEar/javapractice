@@ -1,4 +1,5 @@
-//删除相同val的结点
+//删除链表相同值结点
 public class DeleteDuplication {
+
 
 }
