@@ -7,7 +7,7 @@ class StringMethodsDemo {
         String s = new String(b, fromCharset);
         return s.getBytes(toCharset);
     }
-
+//public char[] toCharArray将字符串以字符数组的形式返回
     private static boolean isNumber(String s) {
         for (char c : s.toCharArray()) {
             /*
@@ -35,6 +35,9 @@ class StringMethodsDemo {
             System.out.printf("\\x%x", b);
         }
         System.out.println();
+
+        System.out.println(isNumber("123456"));
+        System.out.println(isNumber("ab12"));
 
     }
 }
