@@ -1,15 +1,5 @@
 package 二叉树;
-//二叉链
-    class Node {
-    char value;
-    Node left;
-    Node right;
 
-    public Node(char value) {
-        this.value = value;
-        left = right = null;
-    }
-}
 public class BinaryTree{
     public static int size=0;
     public static int leafsize=0;
