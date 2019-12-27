@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-
+//分层遍历
 public class LevelOrderTree {
     public List<List<Integer>> levelOrder(Node root) {
         List<List<Integer>> list = new LinkedList<>();
