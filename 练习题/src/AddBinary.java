@@ -3,6 +3,7 @@ public class AddBinary {
     public static String addBinary(String a, String b) {
         int len1=a.length();
         int len2=b.length();
+        //确保a的长度长
         if(len1<len2)
             return addBinary(b,a);
         int[] result=new int[len1+1];
@@ -16,6 +17,7 @@ public class AddBinary {
             index--;
             j--;
         }
+        //构建可变字符串对象
         StringBuilder sb=new StringBuilder();
         for(int i=0;i<result.length;i++){
             if(i==0&&result[i]==0)
