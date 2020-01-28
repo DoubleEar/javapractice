@@ -7,13 +7,13 @@ public class Is_Palindrome {
             //判断是否是字符或者数字
             boolean flag1=(ch[i]>='0'&&ch[i]<='9'||ch[i]>='a'&&ch[i]<='z'||ch[i]>='A'&&ch[i]<='Z');
             boolean flag2=(ch[j]>='0'&&ch[j]<='9'||ch[j]>='a'&&ch[j]<='z'||ch[j]>='A'&&ch[j]<='Z');
-            //如果首为假尾为真，将首的数组下标保持不变，尾的数组下标减一
+            //如果首为假尾为真，将尾的数组下标保持不变，首的数组下标加一
             if(!flag1&&flag2){
-                i--;
-            }
-            //如果尾为假首为真，将尾的数组下标保持不变，首的数组下标加一
-            if(flag1&&!flag2){
                 j++;
+            }
+            //如果尾为假首为真，将首的数组下标保持不变，尾的数组下标减一
+            if(flag1&&!flag2){
+                i--;
             }
             //如果首尾都为字符或者数字则首尾交换
             if(flag1&&flag2){
@@ -25,7 +25,9 @@ public class Is_Palindrome {
         return s.equalsIgnoreCase(String.valueOf(ch));
     }
     public static void main(String[] args) {
-        String s="A man, a plan, a canal: Panama";
-        System.out.println(isPalindrome(s));
+        //String s1="A man, a plan, a canal: Panama";
+        String s2="race a car";
+        //System.out.println(isPalindrome(s1));
+        System.out.println(isPalindrome(s2));
     }
 }
