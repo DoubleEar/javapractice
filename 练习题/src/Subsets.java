@@ -23,7 +23,6 @@ public class Subsets {
                 i_copy = i_copy >> 1;//右移一位
             }
             ans.add(tmp);
-
         }
         return ans;
     }
