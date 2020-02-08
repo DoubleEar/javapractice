@@ -8,7 +8,7 @@ public class FindMaxConsecutiveOnes {
                 //判断是否为1
                 count += 1;
             } else {
-                //更新最大连续的
+                //更新最大连续的1的个数
                 maxCount = Math.max(maxCount, count);
                 // 将count清零
                 count = 0;
