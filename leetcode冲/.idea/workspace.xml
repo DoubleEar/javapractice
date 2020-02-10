@@ -45,8 +45,8 @@
       <file leaf-file-name="FindDuplicate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FindDuplicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="49" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="49" />
+            <state relative-caret-position="120">
+              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -54,8 +54,8 @@
       <file leaf-file-name="Find_Duplicate.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Find_Duplicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="378">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -160,14 +160,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindDuplicate">
+  <component name="RunManager" selected="Application.Find_Duplicate">
     <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindDuplicate" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="FindMaxConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindMaxConsecutiveOnes" />
+    <configuration name="Find_Duplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Find_Duplicate" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -228,19 +228,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FindMaxConsecutiveOnes" />
       <item itemvalue="Application.SearchMatrix" />
       <item itemvalue="Application.KthSmallest" />
       <item itemvalue="Application.SearchRange" />
       <item itemvalue="Application.FindDuplicate" />
+      <item itemvalue="Application.Find_Duplicate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Find_Duplicate" />
         <item itemvalue="Application.FindDuplicate" />
         <item itemvalue="Application.SearchRange" />
         <item itemvalue="Application.KthSmallest" />
         <item itemvalue="Application.SearchMatrix" />
-        <item itemvalue="Application.FindMaxConsecutiveOnes" />
       </list>
     </recent_temporary>
   </component>
@@ -258,12 +258,12 @@
       <workItem from="1581090664721" duration="561000" />
       <workItem from="1581172566105" duration="3738000" />
       <workItem from="1581255152797" duration="2837000" />
-      <workItem from="1581341646001" duration="2091000" />
+      <workItem from="1581341646001" duration="2403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11090000" />
+    <option name="totallyTimeSpent" value="11402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -436,13 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindDuplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="49" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/KthSmallest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -453,10 +446,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Find_Duplicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="378">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>

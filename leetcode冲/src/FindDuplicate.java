@@ -1,4 +1,4 @@
-//找出重复的数
+//找出数组中重复的数
 public class FindDuplicate {
     public static int findDuplicate(int[] nums) {
         int left=1;
