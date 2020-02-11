@@ -24,7 +24,7 @@
       <file leaf-file-name="FindMaxConsecutiveOnes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FindMaxConsecutiveOnes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="152">
               <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             </state>
           </provider>
@@ -33,8 +33,8 @@
       <file leaf-file-name="KthSmallest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KthSmallest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="399">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,29 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindDuplicate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FindDuplicate.java">
+      <file leaf-file-name="IsToeplitzMatrix.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IsToeplitzMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Find_Duplicate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Find_Duplicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConstructArray.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ConstructArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="416">
+              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -90,7 +72,7 @@
       <file leaf-file-name="SearchMatrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SearchMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
+            <state relative-caret-position="494">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
@@ -117,6 +99,7 @@
         <option value="$PROJECT_DIR$/src/Find_Duplicate.java" />
         <option value="$PROJECT_DIR$/src/Construct_Array.java" />
         <option value="$PROJECT_DIR$/src/ConstructArray.java" />
+        <option value="$PROJECT_DIR$/src/IsToeplitzMatrix.java" />
       </list>
     </option>
   </component>
@@ -180,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Construct_Array">
+  <component name="RunManager" selected="Application.IsToeplitzMatrix">
     <configuration name="ConstructArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConstructArray" />
       <module name="leetcode冲" />
@@ -201,8 +184,8 @@
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="SearchRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SearchRange" />
+    <configuration name="IsToeplitzMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IsToeplitzMatrix" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -248,19 +231,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SearchRange" />
       <item itemvalue="Application.FindDuplicate" />
       <item itemvalue="Application.Find_Duplicate" />
       <item itemvalue="Application.ConstructArray" />
       <item itemvalue="Application.Construct_Array" />
+      <item itemvalue="Application.IsToeplitzMatrix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsToeplitzMatrix" />
         <item itemvalue="Application.Construct_Array" />
         <item itemvalue="Application.ConstructArray" />
         <item itemvalue="Application.Find_Duplicate" />
         <item itemvalue="Application.FindDuplicate" />
-        <item itemvalue="Application.SearchRange" />
       </list>
     </recent_temporary>
   </component>
@@ -279,19 +262,19 @@
       <workItem from="1581172566105" duration="3738000" />
       <workItem from="1581255152797" duration="2837000" />
       <workItem from="1581341646001" duration="5121000" />
-      <workItem from="1581421148697" duration="274000" />
+      <workItem from="1581421148697" duration="1920000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14394000" />
+    <option name="totallyTimeSpent" value="16040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -317,7 +300,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,13 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindMaxConsecutiveOnes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LongestCommonPrefix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -509,9 +484,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConstructArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Find_Duplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KthSmallest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindMaxConsecutiveOnes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SearchMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
+        <state relative-caret-position="494">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
@@ -523,30 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KthSmallest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindDuplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Find_Duplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Construct_Array.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -554,10 +543,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConstructArray.java">
+    <entry file="file://$PROJECT_DIR$/src/IsToeplitzMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="416">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
