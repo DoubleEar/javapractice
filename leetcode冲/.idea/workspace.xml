@@ -45,17 +45,43 @@
       <file leaf-file-name="FindDuplicate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FindDuplicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Find_Duplicate.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Find_Duplicate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Find_Duplicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="-81">
+              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstructArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ConstructArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-248">
+              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <folding>
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Construct_Array.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Construct_Array.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding>
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1145#1146#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,6 +123,8 @@
         <option value="$PROJECT_DIR$/src/KthSmallest.java" />
         <option value="$PROJECT_DIR$/src/FindDuplicate.java" />
         <option value="$PROJECT_DIR$/src/Find_Duplicate.java" />
+        <option value="$PROJECT_DIR$/src/Construct_Array.java" />
+        <option value="$PROJECT_DIR$/src/ConstructArray.java" />
       </list>
     </option>
   </component>
@@ -160,7 +188,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Find_Duplicate">
+  <component name="RunManager" selected="Application.Construct_Array">
+    <configuration name="ConstructArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConstructArray" />
+      <module name="leetcode冲" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Construct_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Construct_Array" />
+      <module name="leetcode冲" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindDuplicate" />
       <module name="leetcode冲" />
@@ -168,16 +206,6 @@
     </configuration>
     <configuration name="Find_Duplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Find_Duplicate" />
-      <module name="leetcode冲" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="KthSmallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KthSmallest" />
-      <module name="leetcode冲" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="SearchMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SearchMatrix" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -228,19 +256,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SearchMatrix" />
-      <item itemvalue="Application.KthSmallest" />
       <item itemvalue="Application.SearchRange" />
       <item itemvalue="Application.FindDuplicate" />
       <item itemvalue="Application.Find_Duplicate" />
+      <item itemvalue="Application.ConstructArray" />
+      <item itemvalue="Application.Construct_Array" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Construct_Array" />
+        <item itemvalue="Application.ConstructArray" />
         <item itemvalue="Application.Find_Duplicate" />
         <item itemvalue="Application.FindDuplicate" />
         <item itemvalue="Application.SearchRange" />
-        <item itemvalue="Application.KthSmallest" />
-        <item itemvalue="Application.SearchMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -258,16 +286,15 @@
       <workItem from="1581090664721" duration="561000" />
       <workItem from="1581172566105" duration="3738000" />
       <workItem from="1581255152797" duration="2837000" />
-      <workItem from="1581341646001" duration="2403000" />
+      <workItem from="1581341646001" duration="5121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11402000" />
+    <option name="totallyTimeSpent" value="14120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -279,18 +306,18 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.03264605" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18501171" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -448,15 +475,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FindDuplicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Find_Duplicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="-81">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Construct_Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConstructArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
