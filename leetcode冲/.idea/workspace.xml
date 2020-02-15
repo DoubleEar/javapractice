@@ -39,14 +39,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShiftGrid.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShiftGrid.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ShiftGrid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="880">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CanThreePartsEqualSum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CanThreePartsEqualSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -77,6 +86,7 @@
         <option value="$PROJECT_DIR$/src/ArrayNesting.java" />
         <option value="$PROJECT_DIR$/src/MaxChunksToSorted.java" />
         <option value="$PROJECT_DIR$/src/ShiftGrid.java" />
+        <option value="$PROJECT_DIR$/src/CanThreePartsEqualSum.java" />
       </list>
     </option>
   </component>
@@ -140,14 +150,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShiftGrid">
+  <component name="RunManager" selected="Application.CanThreePartsEqualSum">
     <configuration name="ArrayNesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayNesting" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="FindShortestSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindShortestSubArray" />
+    <configuration name="CanThreePartsEqualSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CanThreePartsEqualSum" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -208,19 +218,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FindShortestSubArray" />
       <item itemvalue="Application.KthSmallest" />
       <item itemvalue="Application.ArrayNesting" />
       <item itemvalue="Application.MaxChunksToSorted" />
       <item itemvalue="Application.ShiftGrid" />
+      <item itemvalue="Application.CanThreePartsEqualSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CanThreePartsEqualSum" />
         <item itemvalue="Application.ShiftGrid" />
         <item itemvalue="Application.MaxChunksToSorted" />
         <item itemvalue="Application.ArrayNesting" />
         <item itemvalue="Application.KthSmallest" />
-        <item itemvalue="Application.FindShortestSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -244,12 +254,12 @@
       <workItem from="1581605217634" duration="5146000" />
       <workItem from="1581691316904" duration="1019000" />
       <workItem from="1581755067268" duration="20000" />
-      <workItem from="1581763399134" duration="2084000" />
+      <workItem from="1581763399134" duration="2792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30998000" />
+    <option name="totallyTimeSpent" value="31706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -265,11 +275,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18501171" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18501171" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -297,13 +307,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MaxChunksToSorted.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/KthSmallest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -652,11 +655,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ShiftGrid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="880">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CanThreePartsEqualSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
