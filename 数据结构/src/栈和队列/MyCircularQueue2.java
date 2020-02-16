@@ -1,4 +1,5 @@
 package 栈和队列;
+//用数组来实现循环队列
 //通过增加size属性纪录
 public class MyCircularQueue2 {
     int size;
@@ -6,7 +7,7 @@ public class MyCircularQueue2 {
     int rear;
     int front;
     public MyCircularQueue2(int k){
-         array=new int[k+1];
+         array=new int[k];
          size=0;
          rear=front=0;
     }
@@ -15,7 +16,8 @@ public class MyCircularQueue2 {
         if (isFull()) {
             return false;
         }
-        array[rear++] = value;
+        //先将value放入rear后一个位置
+        array[++rear] = value;
         size++;
         //判断位置是否越界，更新位置
         //rear=rear%array.length;
@@ -49,10 +51,7 @@ public class MyCircularQueue2 {
         if(isEmpty()){
             return -1;
         }
-        if(rear==0){
-            return array[array.length-1];
-        }
-        return array[rear-1];
+        return array[rear];
     }
 
     //判断是否为空
@@ -62,6 +61,6 @@ public class MyCircularQueue2 {
 
     //判断是否满了
     public boolean isFull(){
-        return size==array.length-1;
+        return size==array.length;
     }
 }
