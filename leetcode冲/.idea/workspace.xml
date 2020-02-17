@@ -12,37 +12,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="KthSmallest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KthSmallest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="46" column="50" selection-start-line="42" selection-start-column="8" selection-end-line="46" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayNesting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArrayNesting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaxChunksToSorted.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MaxChunksToSorted.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ShiftGrid.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ShiftGrid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="931">
+            <state relative-caret-position="494">
               <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -51,29 +24,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CanThreePartsEqualSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CanThreePartsEqualSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FindJudge.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FindJudge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="399">
               <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetImportance.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GetImportance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GetImportance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="23" />
+            <state relative-caret-position="-1158">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetIntersectionNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GetIntersectionNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -107,6 +80,7 @@
         <option value="$PROJECT_DIR$/src/CanThreePartsEqualSum.java" />
         <option value="$PROJECT_DIR$/src/FindJudge.java" />
         <option value="$PROJECT_DIR$/src/GetImportance.java" />
+        <option value="$PROJECT_DIR$/src/GetIntersectionNode.java" />
       </list>
     </option>
   </component>
@@ -170,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetImportance">
+  <component name="RunManager" selected="Application.GetIntersectionNode">
     <configuration name="CanThreePartsEqualSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CanThreePartsEqualSum" />
       <module name="leetcode冲" />
@@ -186,8 +160,8 @@
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MaxChunksToSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxChunksToSorted" />
+    <configuration name="GetIntersectionNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GetIntersectionNode" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -238,19 +212,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MaxChunksToSorted" />
       <item itemvalue="Application.ShiftGrid" />
       <item itemvalue="Application.CanThreePartsEqualSum" />
       <item itemvalue="Application.FindJudge" />
       <item itemvalue="Application.GetImportance" />
+      <item itemvalue="Application.GetIntersectionNode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetIntersectionNode" />
         <item itemvalue="Application.GetImportance" />
         <item itemvalue="Application.FindJudge" />
         <item itemvalue="Application.CanThreePartsEqualSum" />
         <item itemvalue="Application.ShiftGrid" />
-        <item itemvalue="Application.MaxChunksToSorted" />
       </list>
     </recent_temporary>
   </component>
@@ -276,14 +250,16 @@
       <workItem from="1581755067268" duration="20000" />
       <workItem from="1581763399134" duration="3044000" />
       <workItem from="1581830740128" duration="5490000" />
+      <workItem from="1581917364555" duration="2528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37448000" />
+    <option name="totallyTimeSpent" value="39976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -323,17 +299,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MaxChunksToSorted.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/KthSmallest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -638,10 +607,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaxChunksToSorted.java">
+    <entry file="file://$PROJECT_DIR$/src/CanThreePartsEqualSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        <state relative-caret-position="152">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindJudge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GetImportance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1158">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -654,14 +637,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/KthSmallest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
+        <state relative-caret-position="342">
           <caret line="46" column="50" selection-start-line="42" selection-start-column="8" selection-end-line="46" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaxChunksToSorted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ShiftGrid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
+        <state relative-caret-position="494">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -669,24 +659,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CanThreePartsEqualSum.java">
+    <entry file="file://$PROJECT_DIR$/src/GetIntersectionNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindJudge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GetImportance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="23" />
+        <state relative-caret-position="704">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
     </entry>

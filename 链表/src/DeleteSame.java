@@ -8,7 +8,7 @@ public class DeleteSame {
             cur=cur.next;
         }
     }
-    public static Node deleteSame(Node head) {
+    public static Node deleteSame(Node head){
         if (head == null) {
             return head;
         }
@@ -45,7 +45,7 @@ public class DeleteSame {
         Node n2 = new Node(3, n3);
         Node n1 = new Node(1, n2);
 
-        Node result=deleteDuplication(n1);
+        Node result=deleteSame(n1);
         printLinkedList(result);
     }
 }
