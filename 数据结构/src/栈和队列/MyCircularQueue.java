@@ -11,7 +11,17 @@ public class MyCircularQueue {
         array = new int[k + 1];
         front = rear = 0;
     }
-    //入队
+    //插入队列头部
+    public boolean insertFront(int value) {
+        if (isFull()) {
+            return false;
+        }
+        //插入队列头部，插入当前front的前一个位置
+        front = (front - 1 + array.length) % array.length;
+        array[front]=value;
+        return true;
+    }
+    //入队（插入队列尾部）
     public boolean enQueue(int value) {
         if (isFull()) {
             return false;
@@ -26,7 +36,7 @@ public class MyCircularQueue {
         }
         return true;
     }
-    //出队
+    //出队（从队列头部删除一个元素）
     public boolean deQueue() {
         if (isEmpty()) {
             return false;
@@ -36,6 +46,15 @@ public class MyCircularQueue {
         front = front % array.length;
         return true;
 
+    }
+    //从队列尾部删除一个元素
+    public boolean deleteLast() {
+        if(isEmpty()){
+            return  false;
+        }
+        //将rear往前移动一位
+        rear = (rear - 1 + array.length) % array.length;
+        return true;
     }
     //获得队头元素
     public int getFront() {
@@ -54,6 +73,7 @@ public class MyCircularQueue {
             return array[array.length - 1];
         }
         return array[rear - 1];
+        //return array[(rear - 1 + array.length) % array.length];
     }
 
     //判断循环队列是否为空

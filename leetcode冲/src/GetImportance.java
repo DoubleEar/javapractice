@@ -16,27 +16,28 @@ class Employee {
 
 public class GetImportance {
     static Map<Integer, Employee> map = new HashMap<>();
+
     public static int getImportance(List<Employee> employees, int id) {
         //将所有的员工插入map。key为各自的id，value为employee1~3
-        for(Employee t : employees)
+        for (Employee t : employees)
             map.put(t.id, t);
         //广度优先搜索 把指定员工的id传入
         return bfs(id);
     }
+
     private static int bfs(int s) {
         Queue<Integer> q = new LinkedList<>();
         int sum = 0;
         //加入员工的id
         q.offer(s);
-        while(!q.isEmpty())
-        {
+        while (!q.isEmpty()) {
             int v = q.remove();
             //获取当前id的员工
             Employee current = map.get(v);
             //将员工的重要度加起来
             sum += current.importance;
             //遍历当前员工直系下属的id
-            for(int sub : current.subordinates)
+            for (int sub : current.subordinates)
                 //将下属的id插入到队列中
                 q.offer(sub);
         }
@@ -45,6 +46,7 @@ public class GetImportance {
 
     public static void main(String[] args) {
         List<Employee> employees=new ArrayList<>();
+
         List<Integer> list1=new ArrayList<>();
         list1.add(2);
         List<Integer> list2=new ArrayList<>();
