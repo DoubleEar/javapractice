@@ -1,4 +1,5 @@
 //删除有序链表相同值的结点
+//1->2->2->3->4         1->3->4
 public class DeleteSame {
     public static void printLinkedList(Node head){
         Node cur=head;

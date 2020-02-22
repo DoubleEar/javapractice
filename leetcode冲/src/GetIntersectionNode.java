@@ -1,14 +1,5 @@
 //求两个相交链表的结点。
 //两个链表走过相同的长度，如果他们相交，他们总会相遇。
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x,ListNode next) {
-        this.val = x;
-        this.next = next;
-     }
-}
 public class GetIntersectionNode {
     public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(headA==null||headB==null)
