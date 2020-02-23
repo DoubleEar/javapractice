@@ -9,19 +9,25 @@ public class RightSideView {
         if (root == null) {
             return new ArrayList<>();
         }
+        //用来存放同一层结点
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
+        //用来存放最右边结点的值
         List<Integer> ret = new ArrayList<>();
         while (!queue.isEmpty()) {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
+                //保证每遍历一次，该节点就出队列
                 TreeNode node = queue.poll();
+                //下标从0开始，将同一层最右边的结点的val加到ret中
                 if (i == size - 1) {
                     ret.add(node.val);
                 }
+                //该节点的左子树的根入队
                 if (node.left != null) {
                     queue.add(node.left);
                 }
+                //该节点的右子树的根入队
                 if (node.right !=null) {
                     queue.add(node.right);
                 }

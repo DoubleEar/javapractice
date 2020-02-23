@@ -47,19 +47,23 @@ public class BinaryTree{
 
     //求整棵树的节点
     public void getSize1(Node root) {
+        //采用后序遍历
         if (root == null)
             return;
             //左子树
            getSize1(root.left);
             //右子树
             getSize1(root.right);
+            //当前走到的结点，相当于打印语句
             size++;
         }
 
         //求整棵树的节点
      public int getSize2(Node root){
+        //空树
         if(root==null)
             return 0;
+        //叶子节点
         if(root.left==null&&root.right==null)
             return 1;
         //整棵树的结点：点当前结点+左右子树结点的个数
@@ -70,11 +74,14 @@ public class BinaryTree{
      public void getLeafSize1(Node root){
         if(root==null)
             return;
+        //叶子节点
         if(root.left==null&&root.right==null) {
             leafsize++;
             return;
         }
+        //判断根的左子树
         getLeafSize1(root.left);
+        //判断根的右子树
         getLeafSize1(root.right);
      }
 
@@ -94,6 +101,7 @@ public class BinaryTree{
             return 0;
         if(k==1)
             return 1;
+        //左右子树k-1层的和
         return getKSize(root.left,k-1)+getKSize(root.right,k-1);
     }
 

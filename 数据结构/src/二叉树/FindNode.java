@@ -8,8 +8,11 @@ public class FindNode {
         if(root.value==value)
             return root;
         Node node=find(root.left,value);
+        //如果node不等于空，说明在左子树中找到了
         if(node!=null)
+            //返回node即可
             return node;
-        return find(root.left,value);
+        //在左子树中没找到，再在右子树中找
+        return find(root.right,value);
     }
 }
