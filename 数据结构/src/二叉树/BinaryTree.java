@@ -1,14 +1,16 @@
 package 二叉树;
 
+import java.util.Stack;
+
 public class BinaryTree{
     public static int size=0;
     public static int leafsize=0;
     //前序遍历：根 左子树 右子树
-    public void preOrder(Node root){
+    public void preOrder(Node root) {
         //终止条件：空树
-        if(root==null)
+        if (root == null)
             return;
-        else{
+        else {
             //根
             System.out.print(root.value);
             //左子树
@@ -16,8 +18,22 @@ public class BinaryTree{
             //右子树
             preOrder(root.right);
         }
-
     }
+
+    public void preOrderNoR(Node root){
+        Stack<Node> stack=new Stack<>();
+        Node cur=root;
+        while(cur!=null||!stack.isEmpty()){
+            while (cur!=null){
+                System.out.print(cur.val+"");
+                stack.push(cur);
+                cur=cur.left;
+            }
+            cur=stack.pop();
+            cur=cur.right;
+        }
+    }
+
     //中序遍历：左子树 根 右子树
     public void inOrder(Node root){
         if(root==null)
@@ -31,6 +47,20 @@ public class BinaryTree{
         preOrder(root.right);
         }
     }
+
+    public static void inOrderNoR(Node root){
+        Stack<Node> stack=new Stack<>();
+        Node cur=root;
+        while(cur!=null||!stack.isEmpty()){
+            while(cur!=null){
+                stack.push(cur);
+                cur=cur.left;
+            }
+            cur=stack.pop();
+            System.out.print(cur.val+"");
+            cur=cur.right;
+        }
+    }
     //后序遍历：左子树 右子树 根
     public void postOrder(Node root){
         if(root==null)
@@ -42,6 +72,29 @@ public class BinaryTree{
             preOrder(root.right);
             //根
             System.out.print(root.value);
+        }
+    }
+
+    public static void postOrderNoR(Node root){
+        Stack<Node> stack=new Stack<>();
+        Node cur=root;
+        Node prev=null;
+        while(cur!=null||!stack.isEmpty()){
+            while(cur!=null){
+                stack.push(cur);
+                cur=cur.left;
+            }
+            cur=stack.peek();//不直接删除，要判断是否还有右子树
+            //1.cur.right==null：没有右子树
+            //2.cur.right==prev：有右子树，并且右子树的根上一次已经访问结束，即右子树访问完成。
+            if(cur.right==null||cur.right==prev){
+                System.out.print(cur.val+"");
+                prev=cur;
+                stack.pop();
+                cur=null;//更新，使得不进入上层循环。
+            }else{
+                cur=cur.right;
+            }
         }
     }
 
@@ -128,21 +181,24 @@ public class BinaryTree{
     public static void main(String[] args) {
         BinaryTree btree=new BinaryTree();
         Node root=buildBtree();
-        btree.preOrder(root);
+        //btree.preOrder(root);
+        //System.out.println();
+        //btree.inOrder(root);
+       // System.out.println();
+        //btree.postOrder(root);
+        //System.out.println();
+        //btree.getSize1(root);
+        //System.out.println(size);
+        //System.out.println(btree.getSize2(root));
+       // btree.getLeafSize1(root);
+       // System.out.println(leafsize);
+        //System.out.println(btree.getLeafSize2(root));
+        //System.out.println(btree.getKSize(root,1));
+       // System.out.println(btree.getKSize(root,2));
+       // System.out.println(btree.getKSize(root,3));
+        //System.out.println(btree.getKSize(root,4));
+        btree.inOrderNoR(root);
         System.out.println();
-        btree.inOrder(root);
-        System.out.println();
-        btree.postOrder(root);
-        System.out.println();
-        btree.getSize1(root);
-        System.out.println(size);
-        System.out.println(btree.getSize2(root));
-        btree.getLeafSize1(root);
-        System.out.println(leafsize);
-        System.out.println(btree.getLeafSize2(root));
-        System.out.println(btree.getKSize(root,1));
-        System.out.println(btree.getKSize(root,2));
-        System.out.println(btree.getKSize(root,3));
-        System.out.println(btree.getKSize(root,4));
+        btree.postOrderNoR(root);
     }
 }
