@@ -1,21 +1,18 @@
-package 二叉树;
-
 //根据一棵树的前序遍历与中序遍历构造二叉树。
 public class BuildTree {
-    static int curIdx=0;
-    public Node _buildTree(int[] pre,int[] in,int inS,int inE){
+    static int curIndex=0;
+    public TreeNode _buildTree(int[] pre,int[] in,int inS,int inE){
         if(inS>inE)
             return null;
-        int rootValue=pre[curIdx];
-        curIdx++;
-        Node root =new Node(rootValue);
+        int rootValue=pre[curIndex++];
+        TreeNode root=new TreeNode(rootValue);
         //区间中除过根结点，没有孩子结点
         if(inS==inE)
             return root;
+        int i;
         //确定左右子树的区间
         //在中序遍历中确定根在区间中的位置
-        int i;
-        for(i=inS;i<inE;i++){
+        for(i=inS;i<=inE;i++){
             if(in[i]==rootValue)
                 break;
         }
@@ -27,9 +24,8 @@ public class BuildTree {
         root.right=_buildTree(pre,in,i+1,inE);
         return root;
     }
-    public Node buildTree(int[] preorder, int[] inorder) {
-        //重置
-        curIdx=0;
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        curIndex=0;
         return _buildTree(preorder,inorder,0,preorder.length-1);
     }
 }
