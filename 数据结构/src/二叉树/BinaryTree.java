@@ -154,7 +154,7 @@ public class BinaryTree{
             return 0;
         if(k==1)
             return 1;
-        //左右子树k-1层的和
+        //k-1层左右孩子结点的和
         return getKSize(root.left,k-1)+getKSize(root.right,k-1);
     }
 

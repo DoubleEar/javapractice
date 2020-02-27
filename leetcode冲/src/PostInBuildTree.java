@@ -6,16 +6,6 @@ public class PostInBuildTree {
     //从后序序列中拿到根节点后，要在中序序列中查找对应的位置,从而将数组分为左子树和右子树
      HashMap<Integer,Integer> memo = new HashMap<>();
      int[] post;
-
-    public TreeNode buildTree(int[] inorder, int[] postorder) {
-        for(int i = 0;i < inorder.length; i++) {
-            memo.put(inorder[i], i);
-        }
-        post = postorder;
-        TreeNode root = _buildTree(0, inorder.length - 1, 0, post.length - 1);
-        return root;
-    }
-
     public TreeNode _buildTree(int inS, int inE, int postS, int postE) {
         if(inE < inS || postE < postS)
             return null;
@@ -30,5 +20,14 @@ public class PostInBuildTree {
         node.left = _buildTree(inS, rootIn - 1, postS, postS + (rootIn - inS) - 1);
         node.right = _buildTree(rootIn + 1, inE, postS + (rootIn - inS), postE - 1);
         return node;
+    }
+
+    public TreeNode buildTree(int[] inorder, int[] postorder) {
+        for(int i = 0;i < inorder.length; i++) {
+            memo.put(inorder[i], i);
+        }
+        post = postorder;
+        TreeNode root = _buildTree(0, inorder.length - 1, 0, post.length - 1);
+        return root;
     }
 }
