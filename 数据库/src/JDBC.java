@@ -14,6 +14,7 @@ public class JDBC {
         String password="";
         Connection connection=DriverManager.getConnection(url,user,password);
         System.out.println(connection);
+        //3.循环
         // 从 Scanner 中不停的读 SQL，并执行
         Scanner scanner = new Scanner(System.in);
         while (true) {
@@ -22,7 +23,6 @@ public class JDBC {
             if (sql.equals("quit")) {
                 break;
             }
-
             // a) 创建一个 Statement 语句
             Statement statement = connection.createStatement();
 
@@ -45,7 +45,7 @@ public class JDBC {
 
             statement.close();
         }
-        //关闭链接
+        //4.关闭链接
         connection.close();
     }
 }
