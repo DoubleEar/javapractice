@@ -39,7 +39,7 @@
       <file leaf-file-name="lastStoneWeight.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lastStoneWeight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-285">
+            <state relative-caret-position="190">
               <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -48,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RomanToInt.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RomanToInt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RomanToInt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -57,10 +57,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="IsValid.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IsValid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GetImportance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GetImportance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-190">
+            <state relative-caret-position="38">
               <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
@@ -127,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/KSmallestPairs.java" />
         <option value="$PROJECT_DIR$/src/lastStoneWeight.java" />
         <option value="$PROJECT_DIR$/src/RomanToInt.java" />
+        <option value="$PROJECT_DIR$/src/IsValid.java" />
       </list>
     </option>
   </component>
@@ -139,7 +149,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-204" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
@@ -149,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,12 +183,13 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../数据结构" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -195,9 +205,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RomanToInt">
-    <configuration name="ConvertBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConvertBST" />
+  <component name="RunManager" selected="Application.IsValid">
+    <configuration name="IsValid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IsValid" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -263,19 +273,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ConvertBST" />
       <item itemvalue="Application.WidthOfBinaryTree" />
       <item itemvalue="Application.KSmallestPairs" />
       <item itemvalue="Application.lastStoneWeight" />
       <item itemvalue="Application.RomanToInt" />
+      <item itemvalue="Application.IsValid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsValid" />
         <item itemvalue="Application.RomanToInt" />
         <item itemvalue="Application.lastStoneWeight" />
         <item itemvalue="Application.KSmallestPairs" />
         <item itemvalue="Application.WidthOfBinaryTree" />
-        <item itemvalue="Application.ConvertBST" />
       </list>
     </recent_temporary>
   </component>
@@ -318,18 +328,20 @@
       <workItem from="1583160056835" duration="2428000" />
       <workItem from="1583204892845" duration="5006000" />
       <workItem from="1583319653965" duration="3379000" />
+      <workItem from="1583410044978" duration="445000" />
+      <workItem from="1583491864693" duration="612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122104000" />
+    <option name="totallyTimeSpent" value="123161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -337,7 +349,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.08934708" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -355,6 +367,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,17 +378,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="48" />
+      <option name="time" value="49" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LongestCommonPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Find_Duplicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -701,15 +707,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lastStoneWeight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
+        <state relative-caret-position="190">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -726,7 +729,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GetImportance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
+        <state relative-caret-position="38">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
@@ -735,6 +738,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IsValid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
         </state>
       </provider>
     </entry>
