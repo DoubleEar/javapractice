@@ -2,8 +2,12 @@ package 排序;
 
 import 堆.Heap;
 
+import java.util.Stack;
+
+
 //快速排序
 public class QuickSort {
+    //霍尔法
     public static int partion(int[] arr,int left,int right){
         int key=arr[left];
         int start=left;
@@ -22,6 +26,7 @@ public class QuickSort {
         return left;
     }
 
+    //挖坑法
     public static int partion2(int[] arr,int left,int right){
         //获取基准值
         int key=arr[left];
@@ -43,6 +48,7 @@ public class QuickSort {
         return left;
     }
 
+    //三位取中法 优化（防止单边树的产生）
     public static int getMid(int[] arr,int left,int right){
         int mid=(left+right)/2;
         if(arr[mid]>arr[left]){
@@ -68,9 +74,10 @@ public class QuickSort {
         }
     }
 
+    //前后遍历法
     public static int partion3(int[] arr,int left,int right){
-        //int mid=getMid(arr,left,right);
-        //Heap.swap(arr,left,mid);
+        int mid=getMid(arr,left,right);
+        Heap.swap(arr,left,mid);
         int key=arr[left];
         int prev=left;//表示的是最后一个小于key的值，循环结束后，与key值交换。
         int cur=left+1;
@@ -83,9 +90,11 @@ public class QuickSort {
         }
         //交换key与prev的值
         Heap.swap(arr,prev,left);
-        return left;
+        //注意此时left已经与prev交换了，应该返回prev
+        return prev;
     }
 
+    //快速排序 递归法
     public static void quickSort(int[] arr,int left,int right){
         if (left<right) {
             //int mid = partion(arr, left, right);
@@ -99,6 +108,33 @@ public class QuickSort {
             int mid3 = partion3(arr, left, right);
             quickSort(arr, left, mid3 - 1);
             quickSort(arr, mid3 + 1, right);
+        }
+    }
+
+    //快速排序 非递归法
+    public static void quickSortNotR(int[] arr){
+        int left=0;
+        int right=arr.length-1;
+        Stack<Integer> stack=new Stack<>();
+        //先压左在压右（注意顺序要一致）
+        if(left<right) {
+            stack.push(left);
+            stack.push(right);
+        }
+        while (!stack.isEmpty()){
+            //出栈时先右后左
+            int right1=stack.pop();
+            int left1=stack.pop();
+            int mid=partion3(arr,left1,right1);
+            //确保有数据可以分组
+            if(mid-1>left1){
+                stack.push(left1);
+                stack.push(mid-1);
+            }
+            if(mid+1<right1) {
+                stack.push(mid+1);
+                stack.push(right1);
+            }
         }
     }
 }
