@@ -64,7 +64,8 @@ class personIdComparator implements Comparator<person>{
     //Strin按照字典序的类型比较，与长度无关
     @Override
     public int compare(person o1, person o2) {
-        return o1.compareTo(o2);
+
+        return o1.ID.compareTo(o2.ID);
     }
 }
 class test1{
@@ -72,7 +73,7 @@ class test1{
         int[] arr={5,3,8,10,9};
         person[] personArr={new person("耳耳",20,"女","17050411123"),
                             new person("早耶",21,"女","17050411103"),
-                            new person("大白鹅",19,"男","17050411146")};
+                            new person("大白鹅",29,"男","17050411146")};
         Arrays.sort(arr);
         //person已经实现Comparable中的compareTo方法
         Arrays.sort(personArr);

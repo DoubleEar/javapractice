@@ -43,7 +43,7 @@ public class MergeInternal {
         int index=left;
         while (begin1<=end1&&begin2<=end2){
             //<:不稳定
-            //<=:稳定
+            //<=:稳定 不让前面的元素跑到后面去
             if(arr[begin1]<=arr[begin2]){
                 temp[index++]=arr[begin1++];
             }else {

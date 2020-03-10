@@ -54,11 +54,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiameterOfBinaryTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DiameterOfBinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DiameterOfBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+              <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarFleet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CarFleet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -84,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FindDuplicate.java" />
         <option value="$PROJECT_DIR$/src/Find_Duplicate.java" />
         <option value="$PROJECT_DIR$/src/Construct_Array.java" />
         <option value="$PROJECT_DIR$/src/ConstructArray.java" />
@@ -135,6 +143,7 @@
         <option value="$PROJECT_DIR$/src/CoinChange.java" />
         <option value="$PROJECT_DIR$/src/MaxProfit.java" />
         <option value="$PROJECT_DIR$/src/DiameterOfBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/CarFleet.java" />
       </list>
     </option>
   </component>
@@ -148,8 +157,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-204" />
-    <option name="width" value="1113" />
+    <option name="x" value="745" />
+    <option name="y" value="21" />
+    <option name="width" value="981" />
     <option name="height" value="1032" />
   </component>
   <component name="ProjectView">
@@ -197,7 +207,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiameterOfBinaryTree">
+  <component name="RunManager" selected="Application.CarFleet">
+    <configuration name="CarFleet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CarFleet" />
+      <module name="leetcode冲" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoinChange" />
       <module name="leetcode冲" />
@@ -205,11 +220,6 @@
     </configuration>
     <configuration name="DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DiameterOfBinaryTree" />
-      <module name="leetcode冲" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="FindContinuousSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindContinuousSequence" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -265,19 +275,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FindContinuousSequence" />
       <item itemvalue="Application.MaxQueue" />
       <item itemvalue="Application.CoinChange" />
       <item itemvalue="Application.MaxProfit" />
       <item itemvalue="Application.DiameterOfBinaryTree" />
+      <item itemvalue="Application.CarFleet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarFleet" />
         <item itemvalue="Application.DiameterOfBinaryTree" />
         <item itemvalue="Application.MaxProfit" />
         <item itemvalue="Application.CoinChange" />
         <item itemvalue="Application.MaxQueue" />
-        <item itemvalue="Application.FindContinuousSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -325,12 +335,12 @@
       <workItem from="1583595006004" duration="4193000" />
       <workItem from="1583668277959" duration="3810000" />
       <workItem from="1583738299953" duration="1051000" />
-      <workItem from="1583822615273" duration="394000" />
+      <workItem from="1583822615273" duration="6287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133921000" />
+    <option name="totallyTimeSpent" value="139814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -338,6 +348,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.0" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -345,11 +356,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.018900344" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18501171" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18501171" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -363,7 +374,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,17 +384,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="56" />
+      <option name="time" value="59" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FindShortestSubArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/KthSmallest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -737,7 +740,14 @@
     <entry file="file://$PROJECT_DIR$/src/DiameterOfBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CarFleet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
