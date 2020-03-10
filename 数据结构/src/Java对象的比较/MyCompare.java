@@ -5,6 +5,54 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class MyCompare {
+    public static void swap(person[] arr,int i,int j){
+        person temp=arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
+    }
+    //person类实现了Comparable中的compareTo方法。
+    public static void bubbleSort(person[] arr){
+        int end=arr.length;
+        while (end>0){
+            boolean flag=true;
+            for(int i=1;i<end;i++){
+                if(arr[i-1].compareTo(arr[i])>0){
+                    swap(arr,i-1,i);
+                    flag=false;
+                }
+            }
+            if(flag)
+                break;
+            end--;
+        }
+    }
+
+    //实现比较器中compare方法
+    public static void bubbleSort2(person[] arr,Comparator<person> c){
+        int end=arr.length;
+        while (end>0){
+            boolean flag=true;
+            for(int i=1;i<end;i++){
+                if(c.compare(arr[i-1],arr[i])>0){
+                    swap(arr,i-1,i);
+                    flag=false;
+                }
+            }
+            if(flag)
+                break;
+            end--;
+        }
+    }
+
+    public static void main(String[] args) {
+        person[] personArr={new person("耳耳",20,"女","17050411123"),
+                new person("早耶",21,"女","17050411103"),
+                new person("大白鹅",29,"男","17050411146")};
+        bubbleSort(personArr);
+        System.out.println(Arrays.toString(personArr));
+        bubbleSort2(personArr,new personIdComparator());
+        System.out.println(Arrays.toString(personArr));
+    }
 
 }
 /*
@@ -44,6 +92,18 @@ class person implements Comparable<person>{
     public String toString() {
         return name+" "+age+" "+gender+" "+ID;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(this==obj)
+            return true;
+        //instanceof判断左边的对象是否是右边类的实例化
+        if(obj==null||!(obj instanceof person))
+            return false;
+        person p=(person) obj;
+        return age==age&&p.name.equals(p.name)&&gender.equals(p.gender)
+                &&ID.equals(p.ID);
+    }
 }
 
 class personAgeComparator implements Comparator<person>{
@@ -61,7 +121,7 @@ class personAgeComparator implements Comparator<person>{
 }
 
 class personIdComparator implements Comparator<person>{
-    //Strin按照字典序的类型比较，与长度无关
+    //String按照字典序的类型比较，与长度无关
     @Override
     public int compare(person o1, person o2) {
 
@@ -86,6 +146,11 @@ class test1{
         Arrays.sort(personArr,new personIdComparator());
         System.out.println("ID的比较：");
         System.out.println(Arrays.toString(personArr));
+
+        person p1=new person("justin",18,"男","123456");
+        person p2=new person("justin",18,"男","123456");
+        System.out.println(p1==p2);
+        System.out.println(p1.equals(p2));
     }
 }
 
@@ -113,3 +178,4 @@ class test2{
         }
     }
 }
+
