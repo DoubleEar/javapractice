@@ -15,8 +15,8 @@
       <file leaf-file-name="WidthOfBinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WidthOfBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+            <state relative-caret-position="760">
+              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,17 +57,26 @@
       <file leaf-file-name="DiameterOfBinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DiameterOfBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+            <state relative-caret-position="570">
+              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarFleet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CarFleet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CarFleet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="-57">
+              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveDuplicates.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RemoveDuplicates.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -93,7 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Find_Duplicate.java" />
         <option value="$PROJECT_DIR$/src/Construct_Array.java" />
         <option value="$PROJECT_DIR$/src/ConstructArray.java" />
         <option value="$PROJECT_DIR$/src/IsToeplitzMatrix.java" />
@@ -144,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/MaxProfit.java" />
         <option value="$PROJECT_DIR$/src/DiameterOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/CarFleet.java" />
+        <option value="$PROJECT_DIR$/src/RemoveDuplicates.java" />
       </list>
     </option>
   </component>
@@ -157,7 +166,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="745" />
+    <option name="x" value="744" />
     <option name="y" value="21" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
@@ -167,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -185,7 +195,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CarFleet">
+  <component name="RunManager" selected="Application.RemoveDuplicates">
     <configuration name="CarFleet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CarFleet" />
       <module name="leetcode冲" />
@@ -228,8 +237,8 @@
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MaxQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxQueue" />
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveDuplicates" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -275,19 +284,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MaxQueue" />
       <item itemvalue="Application.CoinChange" />
       <item itemvalue="Application.MaxProfit" />
       <item itemvalue="Application.DiameterOfBinaryTree" />
       <item itemvalue="Application.CarFleet" />
+      <item itemvalue="Application.RemoveDuplicates" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.CarFleet" />
         <item itemvalue="Application.DiameterOfBinaryTree" />
         <item itemvalue="Application.MaxProfit" />
         <item itemvalue="Application.CoinChange" />
-        <item itemvalue="Application.MaxQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -336,14 +345,16 @@
       <workItem from="1583668277959" duration="3810000" />
       <workItem from="1583738299953" duration="1051000" />
       <workItem from="1583822615273" duration="6930000" />
+      <workItem from="1583928894518" duration="1310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140457000" />
+    <option name="totallyTimeSpent" value="141767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -355,7 +366,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -387,13 +398,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/KthSmallest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="46" column="50" selection-start-line="42" selection-start-column="8" selection-end-line="46" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MaxChunksToSorted.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -728,8 +732,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WidthOfBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        <state relative-caret-position="760">
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -738,15 +742,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DiameterOfBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+        <state relative-caret-position="570">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CarFleet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="-57">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RemoveDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
