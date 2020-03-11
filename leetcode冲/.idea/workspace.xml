@@ -72,11 +72,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveDuplicates.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RemoveDuplicates.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RemoveDuplicates.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortColors.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SortColors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-769">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -102,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Construct_Array.java" />
         <option value="$PROJECT_DIR$/src/ConstructArray.java" />
         <option value="$PROJECT_DIR$/src/IsToeplitzMatrix.java" />
         <option value="$PROJECT_DIR$/src/FindShortestSubArray.java" />
@@ -153,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/DiameterOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/CarFleet.java" />
         <option value="$PROJECT_DIR$/src/RemoveDuplicates.java" />
+        <option value="$PROJECT_DIR$/src/SortColors.java" />
       </list>
     </option>
   </component>
@@ -216,14 +225,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicates">
+  <component name="RunManager" selected="Application.SortColors">
     <configuration name="CarFleet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CarFleet" />
-      <module name="leetcode冲" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoinChange" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -239,6 +243,11 @@
     </configuration>
     <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RemoveDuplicates" />
+      <module name="leetcode冲" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortColors" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -284,19 +293,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CoinChange" />
       <item itemvalue="Application.MaxProfit" />
       <item itemvalue="Application.DiameterOfBinaryTree" />
       <item itemvalue="Application.CarFleet" />
       <item itemvalue="Application.RemoveDuplicates" />
+      <item itemvalue="Application.SortColors" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortColors" />
         <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.CarFleet" />
         <item itemvalue="Application.DiameterOfBinaryTree" />
         <item itemvalue="Application.MaxProfit" />
-        <item itemvalue="Application.CoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -345,12 +354,12 @@
       <workItem from="1583668277959" duration="3810000" />
       <workItem from="1583738299953" duration="1051000" />
       <workItem from="1583822615273" duration="6930000" />
-      <workItem from="1583928894518" duration="1310000" />
+      <workItem from="1583928894518" duration="3242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141767000" />
+    <option name="totallyTimeSpent" value="143699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -366,7 +375,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -398,13 +407,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MaxChunksToSorted.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ShiftGrid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="931">
@@ -758,6 +760,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortColors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-769">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>
