@@ -90,20 +90,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompareVersion.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CompareVersion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CompareVersion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="780">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetImportance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GetImportance.java">
+      <file leaf-file-name="GcdOfStrings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GcdOfStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="512">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding>
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/IsToeplitzMatrix.java" />
         <option value="$PROJECT_DIR$/src/FindShortestSubArray.java" />
         <option value="$PROJECT_DIR$/src/KthSmallest.java" />
         <option value="$PROJECT_DIR$/src/ArrayNesting.java" />
@@ -171,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/RemoveDuplicates.java" />
         <option value="$PROJECT_DIR$/src/SortColors.java" />
         <option value="$PROJECT_DIR$/src/CompareVersion.java" />
+        <option value="$PROJECT_DIR$/src/GcdOfStrings.java" />
       </list>
     </option>
   </component>
@@ -234,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CompareVersion">
+  <component name="RunManager" selected="Application.GcdOfStrings">
     <configuration name="CarFleet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CarFleet" />
       <module name="leetcode冲" />
@@ -245,8 +249,8 @@
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DiameterOfBinaryTree" />
+    <configuration name="GcdOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GcdOfStrings" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -302,19 +306,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DiameterOfBinaryTree" />
       <item itemvalue="Application.CarFleet" />
       <item itemvalue="Application.RemoveDuplicates" />
       <item itemvalue="Application.SortColors" />
       <item itemvalue="Application.CompareVersion" />
+      <item itemvalue="Application.GcdOfStrings" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GcdOfStrings" />
         <item itemvalue="Application.CompareVersion" />
         <item itemvalue="Application.SortColors" />
         <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.CarFleet" />
-        <item itemvalue="Application.DiameterOfBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -364,12 +368,12 @@
       <workItem from="1583738299953" duration="1051000" />
       <workItem from="1583822615273" duration="6930000" />
       <workItem from="1583928894518" duration="3242000" />
-      <workItem from="1584001534248" duration="1445000" />
+      <workItem from="1584001534248" duration="2778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145144000" />
+    <option name="totallyTimeSpent" value="146477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -417,13 +421,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="622" selection-start-line="622" selection-end-line="622" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IsPopOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -775,8 +772,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CompareVersion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="780">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GcdOfStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
