@@ -14,7 +14,7 @@ public class SortColors {
             if(nums[cur]==0){
                 //如果cur当前遍历到的元素是0，就与left交换。
                 swap(nums,cur,left);
-                //cur继续向前遍历
+                //cur继续向前遍历(因为之前的元素都已经遍历过)
                 cur++;
                 //left指向最后一个值为0的下一个元素
                 left++;
