@@ -24,18 +24,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MaxQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CoinChange.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CoinChange.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,14 +87,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GcdOfStrings.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GcdOfStrings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GcdOfStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="224">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding>
                 <element signature="e#272#273#0" expanded="true" />
                 <element signature="e#297#298#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindClosestElements.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FindClosestElements.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FindShortestSubArray.java" />
         <option value="$PROJECT_DIR$/src/KthSmallest.java" />
         <option value="$PROJECT_DIR$/src/ArrayNesting.java" />
         <option value="$PROJECT_DIR$/src/MaxChunksToSorted.java" />
@@ -175,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/SortColors.java" />
         <option value="$PROJECT_DIR$/src/CompareVersion.java" />
         <option value="$PROJECT_DIR$/src/GcdOfStrings.java" />
+        <option value="$PROJECT_DIR$/src/FindClosestElements.java" />
       </list>
     </option>
   </component>
@@ -207,11 +207,6 @@
               <item name="leetcode冲" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode冲" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="leetcode冲" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode冲" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -238,14 +233,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GcdOfStrings">
-    <configuration name="CarFleet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CarFleet" />
+  <component name="RunManager" selected="Application.FindClosestElements">
+    <configuration name="CompareVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CompareVersion" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CompareVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompareVersion" />
+    <configuration name="FindClosestElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindClosestElements" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -306,19 +301,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CarFleet" />
       <item itemvalue="Application.RemoveDuplicates" />
       <item itemvalue="Application.SortColors" />
       <item itemvalue="Application.CompareVersion" />
       <item itemvalue="Application.GcdOfStrings" />
+      <item itemvalue="Application.FindClosestElements" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindClosestElements" />
         <item itemvalue="Application.GcdOfStrings" />
         <item itemvalue="Application.CompareVersion" />
         <item itemvalue="Application.SortColors" />
         <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.CarFleet" />
       </list>
     </recent_temporary>
   </component>
@@ -368,12 +363,12 @@
       <workItem from="1583738299953" duration="1051000" />
       <workItem from="1583822615273" duration="6930000" />
       <workItem from="1583928894518" duration="3242000" />
-      <workItem from="1584001534248" duration="2778000" />
+      <workItem from="1584001534248" duration="3787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146477000" />
+    <option name="totallyTimeSpent" value="147486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -389,11 +384,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18501171" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18501171" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -421,13 +416,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IsPopOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Joseph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -779,11 +767,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GcdOfStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="224">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
             <element signature="e#272#273#0" expanded="true" />
             <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindClosestElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
