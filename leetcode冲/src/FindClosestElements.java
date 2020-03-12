@@ -19,9 +19,24 @@ public class FindClosestElements {
             //更新要删除元素的个数
             removeNums--;
         }
+        /*
+        int size=arr.length;
+
+        int left=0,right=size-k;
+        while (left < right) {
+            int mid = (left + right) >>> 1;
+            // 尝试从长度为 k + 1（[mid,mid+k]） 的连续子区间删除一个元素
+            // 从而定位最优化区间的左边界
+            if (x - arr[mid] > arr[mid + k] - x) {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
+        }
+        */
 
         List<Integer> list=new ArrayList<>();
-        for(int i=left;i<=right;i++){
+        for(int i=left;i<left+k;i++){
             list.add(arr[i]);
         }
         return list;
