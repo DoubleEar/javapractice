@@ -24,15 +24,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoinChange.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoinChange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MaxProfit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MaxProfit.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,11 +90,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MajorityElement.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MajorityElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MajorityElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="2244">
+              <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumJewelsInStones.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NumJewelsInStones.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MaxChunksToSorted.java" />
         <option value="$PROJECT_DIR$/src/ShiftGrid.java" />
         <option value="$PROJECT_DIR$/src/CanThreePartsEqualSum.java" />
         <option value="$PROJECT_DIR$/src/FindJudge.java" />
@@ -174,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/FindClosestElements.java" />
         <option value="$PROJECT_DIR$/src/TopKFrequent.java" />
         <option value="$PROJECT_DIR$/src/MajorityElement.java" />
+        <option value="$PROJECT_DIR$/src/NumJewelsInStones.java" />
       </list>
     </option>
   </component>
@@ -187,8 +190,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-111" />
-    <option name="y" value="18" />
+    <option name="x" value="-174" />
+    <option name="y" value="16" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
   </component>
@@ -237,12 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MajorityElement">
-    <configuration name="CompareVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompareVersion" />
-      <module name="leetcode冲" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="Application.NumJewelsInStones">
     <configuration name="FindClosestElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindClosestElements" />
       <module name="leetcode冲" />
@@ -255,6 +253,11 @@
     </configuration>
     <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MajorityElement" />
+      <module name="leetcode冲" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="NumJewelsInStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumJewelsInStones" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -305,19 +308,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CompareVersion" />
       <item itemvalue="Application.GcdOfStrings" />
       <item itemvalue="Application.FindClosestElements" />
       <item itemvalue="Application.TopKFrequent" />
       <item itemvalue="Application.MajorityElement" />
+      <item itemvalue="Application.NumJewelsInStones" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumJewelsInStones" />
         <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.TopKFrequent" />
         <item itemvalue="Application.FindClosestElements" />
         <item itemvalue="Application.GcdOfStrings" />
-        <item itemvalue="Application.CompareVersion" />
       </list>
     </recent_temporary>
   </component>
@@ -368,16 +371,15 @@
       <workItem from="1583822615273" duration="6930000" />
       <workItem from="1583928894518" duration="3242000" />
       <workItem from="1584001534248" duration="8353000" />
-      <workItem from="1584110044223" duration="1586000" />
+      <workItem from="1584110044223" duration="3508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153638000" />
+    <option name="totallyTimeSpent" value="155560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -399,7 +401,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.11340206" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -417,17 +419,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="62" />
+      <option name="time" value="64" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BackspaceCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CalPoints.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -779,8 +774,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MajorityElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="2244">
+          <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NumJewelsInStones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
