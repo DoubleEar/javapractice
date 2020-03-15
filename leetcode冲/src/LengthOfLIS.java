@@ -20,7 +20,6 @@ public class LengthOfLIS {
                     //将第一个比当前元素小的数后一个位置设置成当前元素。
                     j = m;
             }
-
             tails[i] = num;
             if(res == j)
                 res++;
