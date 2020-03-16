@@ -15,26 +15,8 @@
       <file leaf-file-name="RemoveDuplicates.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RemoveDuplicates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortColors.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SortColors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompareVersion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompareVersion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="247">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -42,8 +24,8 @@
       <file leaf-file-name="FindClosestElements.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FindClosestElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="38">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,53 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopKFrequent.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TopKFrequent.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TopKFrequent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="324">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/PriorityQueue.java">
+      <file leaf-file-name="CompressString.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CompressString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="571" selection-start-line="571" selection-end-line="571" />
-              <folding>
-                <element signature="e#21241#21242#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NumJewelsInStones.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NumJewelsInStones.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LengthOfLIS.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LengthOfLIS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaxAreaOfIsland.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MaxAreaOfIsland.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="54">
+              <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -114,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BackspaceCompare.java" />
         <option value="$PROJECT_DIR$/src/CalPoints.java" />
         <option value="$PROJECT_DIR$/src/IsPopOrder.java" />
         <option value="$PROJECT_DIR$/src/StockSpanner.java" />
@@ -158,12 +106,13 @@
         <option value="$PROJECT_DIR$/src/SortColors.java" />
         <option value="$PROJECT_DIR$/src/CompareVersion.java" />
         <option value="$PROJECT_DIR$/src/GcdOfStrings.java" />
-        <option value="$PROJECT_DIR$/src/FindClosestElements.java" />
         <option value="$PROJECT_DIR$/src/MajorityElement.java" />
         <option value="$PROJECT_DIR$/src/NumJewelsInStones.java" />
         <option value="$PROJECT_DIR$/src/LengthOfLIS.java" />
         <option value="$PROJECT_DIR$/src/MaxAreaOfIsland.java" />
         <option value="$PROJECT_DIR$/src/CopyRandomList.java" />
+        <option value="$PROJECT_DIR$/src/FindClosestElements.java" />
+        <option value="$PROJECT_DIR$/src/CompressString.java" />
         <option value="$PROJECT_DIR$/src/TopKFrequent.java" />
       </list>
     </option>
@@ -178,8 +127,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-174" />
-    <option name="y" value="15" />
+    <option name="x" value="-330" />
+    <option name="y" value="16" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
   </component>
@@ -188,8 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -207,12 +154,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../数据结构" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -228,9 +177,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TopKFrequent">
-    <configuration name="FindClosestElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindClosestElements" />
+  <component name="RunManager" selected="Application.CompressString">
+    <configuration name="CompressString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CompressString" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -296,19 +245,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FindClosestElements" />
       <item itemvalue="Application.TopKFrequent" />
       <item itemvalue="Application.MajorityElement" />
       <item itemvalue="Application.NumJewelsInStones" />
       <item itemvalue="Application.LengthOfLIS" />
+      <item itemvalue="Application.CompressString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompressString" />
         <item itemvalue="Application.TopKFrequent" />
         <item itemvalue="Application.LengthOfLIS" />
         <item itemvalue="Application.NumJewelsInStones" />
         <item itemvalue="Application.MajorityElement" />
-        <item itemvalue="Application.FindClosestElements" />
       </list>
     </recent_temporary>
   </component>
@@ -362,15 +311,15 @@
       <workItem from="1584110044223" duration="3508000" />
       <workItem from="1584198186055" duration="3697000" />
       <workItem from="1584269900718" duration="8629000" />
+      <workItem from="1584358208488" duration="5603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167886000" />
+    <option name="totallyTimeSpent" value="173489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -381,8 +330,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -392,8 +341,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -410,17 +359,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="71" />
+      <option name="time" value="72" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Construct_Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FindDuplicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -670,9 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
           <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,20 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RemoveDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SortColors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GcdOfStrings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-76">
@@ -711,17 +636,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CompareVersion.java">
+    <entry file="file://$PROJECT_DIR$/src/CopyRandomList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        <state relative-caret-position="116">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindClosestElements.java">
+    <entry file="file://$PROJECT_DIR$/src/MajorityElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="1292">
+          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -738,36 +663,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaxAreaOfIsland.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CopyRandomList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MajorityElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
+        <state relative-caret-position="-1805">
           <caret line="571" selection-start-line="571" selection-end-line="571" />
           <folding>
             <element signature="e#21241#21242#0" expanded="true" />
@@ -775,17 +673,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TopKFrequent.java">
+    <entry file="file://$PROJECT_DIR$/src/LengthOfLIS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="480">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LengthOfLIS.java">
+    <entry file="file://$PROJECT_DIR$/src/MaxAreaOfIsland.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="152">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortColors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompareVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RemoveDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindClosestElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CompressString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TopKFrequent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>

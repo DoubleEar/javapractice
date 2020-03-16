@@ -7,7 +7,7 @@ public class FindClosestElements {
         int size=arr.length;
 
         int left=0,right=size-1;
-        //要从数组中移除的元素：数组的长度-要获取的元素个数。
+        //要从数组中移除的元素：数组的长度 - 要获取的元素个数。
         int removeNums=size-k;
 
         while (removeNums>0){

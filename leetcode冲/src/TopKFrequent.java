@@ -7,29 +7,14 @@ public class TopKFrequent {
             //如果表中已有key就将key的value加1。
             map.put(word,map.getOrDefault(word,0)+1);
         }
-
-        /*
-        //优先队列实现比较器
-        PriorityQueue<String> pq=new PriorityQueue<>(new Comparator<String>() {
-            //重写compare方法。
-            @Override
-            public int compare(String o1, String o2) {
-                //当两个单词出现的次数一样时，按字典序排序（String）。
-                if(map.get(o1)==map.get(o2))
-                    return o1.compareTo(o2);
-                //按照降序排列
-                return map.get(o2)-map.get(o1);
-            }
-        });
-        */
-
         //创建最小堆
         PriorityQueue<String> pq=new PriorityQueue<>(new Comparator<String>(){
             @Override
             public int compare(String o1, String o2) {
                 //当两个单词出现的次数一样时，按字典序排序（String）。
                 if(map.get(o1)==map.get(o2))
-                    //按字典序排列。
+                    //按字典序降序排列排列。
+                    //因为后面进行的头插工作，所以要先拿到字典序大的字符串。
                     return o2.compareTo(o1);
                 //默认最小堆
                 return map.get(o1)-map.get(o2);
