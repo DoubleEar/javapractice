@@ -1,6 +1,4 @@
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 //给定两个数组，编写一个函数来计算它们的交集。
 public class Intersection {
@@ -27,7 +25,7 @@ public class Intersection {
         return res;
         */
 
-        //一个set双指针
+        //一个set,双指针。set中的元素不重复。
         Set<Integer> set=new HashSet<>();
         Arrays.sort(nums1);
         Arrays.sort(nums2);
@@ -52,7 +50,7 @@ public class Intersection {
 
     public static void main(String[] args) {
         int[] num1={1,4,3,9};
-        int[] nums2={8,9,4};
+        int[] nums2={8,9,4,4};
         System.out.println(Arrays.toString(intersection(num1,nums2)));
     }
 }
