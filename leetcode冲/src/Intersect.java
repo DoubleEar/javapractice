@@ -27,7 +27,6 @@ public class Intersect {
         }
         return res;
 
-
         /*
         LinkedList<Integer> list=new LinkedList<>();
         Arrays.sort(nums1);
