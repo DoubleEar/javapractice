@@ -15,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RemoveDuplicates.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RemoveDuplicates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FindClosestElements.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FindClosestElements.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,7 +60,7 @@
       <file leaf-file-name="GetLeastNumbers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GetLeastNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="228">
               <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,11 +87,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinIncrementForUnique.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MinIncrementForUnique.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MinIncrementForUnique.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="95">
               <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MiddleNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MiddleNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29">
+              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -126,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ListNode.java" />
         <option value="$PROJECT_DIR$/src/DeleteDuplicates.java" />
         <option value="$PROJECT_DIR$/src/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/PreorderTraversal.java" />
@@ -177,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/Intersection.java" />
         <option value="$PROJECT_DIR$/src/Intersect.java" />
         <option value="$PROJECT_DIR$/src/MinIncrementForUnique.java" />
+        <option value="$PROJECT_DIR$/src/MiddleNode.java" />
       </list>
     </option>
   </component>
@@ -190,8 +190,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-330" />
-    <option name="y" value="15" />
+    <option name="x" value="-204" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
   </component>
@@ -200,8 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,13 +216,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../数据库" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../剑指Offer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -240,12 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinIncrementForUnique">
-    <configuration name="FirstUniqChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstUniqChar" />
-      <module name="leetcode冲" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="Application.MiddleNode">
     <configuration name="GetLeastNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GetLeastNumbers" />
       <module name="leetcode冲" />
@@ -258,6 +252,11 @@
     </configuration>
     <configuration name="Intersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Intersection" />
+      <module name="leetcode冲" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="MiddleNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MiddleNode" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -308,19 +307,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FirstUniqChar" />
       <item itemvalue="Application.GetLeastNumbers" />
       <item itemvalue="Application.Intersection" />
       <item itemvalue="Application.Intersect" />
       <item itemvalue="Application.MinIncrementForUnique" />
+      <item itemvalue="Application.MiddleNode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiddleNode" />
         <item itemvalue="Application.MinIncrementForUnique" />
         <item itemvalue="Application.Intersect" />
         <item itemvalue="Application.Intersection" />
         <item itemvalue="Application.GetLeastNumbers" />
-        <item itemvalue="Application.FirstUniqChar" />
       </list>
     </recent_temporary>
   </component>
@@ -382,11 +381,12 @@
       <workItem from="1584681757457" duration="5382000" />
       <workItem from="1584692366268" duration="4849000" />
       <workItem from="1584887363145" duration="2733000" />
+      <workItem from="1584940321716" duration="2486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198238000" />
+    <option name="totallyTimeSpent" value="200724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -413,7 +413,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.17010309" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -431,17 +431,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="82" />
+      <option name="time" value="83" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -748,7 +741,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GetLeastNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="228">
           <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -796,8 +789,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MinIncrementForUnique.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="95">
           <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MiddleNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
