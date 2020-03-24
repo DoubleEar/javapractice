@@ -18,7 +18,7 @@
       <file leaf-file-name="TopKFrequent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TopKFrequent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="247">
               <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
             </state>
           </provider>
@@ -84,11 +84,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MiddleNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MiddleNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MiddleNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
+            <state relative-caret-position="19">
               <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Massage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Massage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="37" selection-start-column="37" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -96,20 +105,11 @@
       <file leaf-file-name="IsIsomorphic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IsIsomorphic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="152">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompressString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CompressString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -126,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/PreorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/PostorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/IsSubtree.java" />
@@ -177,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/MinIncrementForUnique.java" />
         <option value="$PROJECT_DIR$/src/MiddleNode.java" />
         <option value="$PROJECT_DIR$/src/IsIsomorphic.java" />
+        <option value="$PROJECT_DIR$/src/Massage.java" />
       </list>
     </option>
   </component>
@@ -201,6 +201,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,14 +219,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../数据结构" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -240,19 +240,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsIsomorphic">
+  <component name="RunManager" selected="Application.Massage">
     <configuration name="Intersect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Intersect" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Intersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Intersection" />
+    <configuration name="IsIsomorphic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IsIsomorphic" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="IsIsomorphic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IsIsomorphic" />
+    <configuration name="Massage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Massage" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -308,19 +308,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Intersection" />
       <item itemvalue="Application.Intersect" />
       <item itemvalue="Application.MinIncrementForUnique" />
       <item itemvalue="Application.MiddleNode" />
       <item itemvalue="Application.IsIsomorphic" />
+      <item itemvalue="Application.Massage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Massage" />
         <item itemvalue="Application.IsIsomorphic" />
         <item itemvalue="Application.MiddleNode" />
         <item itemvalue="Application.MinIncrementForUnique" />
         <item itemvalue="Application.Intersect" />
-        <item itemvalue="Application.Intersection" />
       </list>
     </recent_temporary>
   </component>
@@ -384,15 +384,15 @@
       <workItem from="1584887363145" duration="2733000" />
       <workItem from="1584940321716" duration="2486000" />
       <workItem from="1584947371797" duration="4216000" />
+      <workItem from="1585031922739" duration="1500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204940000" />
+    <option name="totallyTimeSpent" value="206440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -414,7 +414,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.17010309" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.0" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -433,17 +433,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="83" />
+      <option name="time" value="84" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/PostInBuildTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PrePostBuildTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -707,9 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -729,7 +719,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TopKFrequent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="247">
           <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
         </state>
       </provider>
@@ -791,8 +781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IsIsomorphic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="152">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -801,8 +791,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MiddleNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
+        <state relative-caret-position="19">
           <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Massage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
         </state>
       </provider>
     </entry>
