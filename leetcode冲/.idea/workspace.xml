@@ -15,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TopKFrequent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TopKFrequent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CountCharacters.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CountCharacters.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,7 +39,7 @@
       <file leaf-file-name="GetLeastNumbers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GetLeastNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="285">
               <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -93,11 +84,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Massage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Massage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Massage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="37" selection-start-column="37" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SurfaceArea.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SurfaceArea.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -126,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/PreorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/PostorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/IsSubtree.java" />
         <option value="$PROJECT_DIR$/src/IsBalanced.java" />
@@ -177,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/MiddleNode.java" />
         <option value="$PROJECT_DIR$/src/IsIsomorphic.java" />
         <option value="$PROJECT_DIR$/src/Massage.java" />
+        <option value="$PROJECT_DIR$/src/SurfaceArea.java" />
       </list>
     </option>
   </component>
@@ -200,9 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,6 +216,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,12 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Massage">
-    <configuration name="Intersect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Intersect" />
-      <module name="leetcode冲" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="Application.SurfaceArea">
     <configuration name="IsIsomorphic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IsIsomorphic" />
       <module name="leetcode冲" />
@@ -263,6 +258,11 @@
     </configuration>
     <configuration name="MinIncrementForUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MinIncrementForUnique" />
+      <module name="leetcode冲" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SurfaceArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SurfaceArea" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -308,19 +308,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Intersect" />
       <item itemvalue="Application.MinIncrementForUnique" />
       <item itemvalue="Application.MiddleNode" />
       <item itemvalue="Application.IsIsomorphic" />
       <item itemvalue="Application.Massage" />
+      <item itemvalue="Application.SurfaceArea" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SurfaceArea" />
         <item itemvalue="Application.Massage" />
         <item itemvalue="Application.IsIsomorphic" />
         <item itemvalue="Application.MiddleNode" />
         <item itemvalue="Application.MinIncrementForUnique" />
-        <item itemvalue="Application.Intersect" />
       </list>
     </recent_temporary>
   </component>
@@ -385,11 +385,12 @@
       <workItem from="1584940321716" duration="2486000" />
       <workItem from="1584947371797" duration="4216000" />
       <workItem from="1585031922739" duration="1500000" />
+      <workItem from="1585137493085" duration="1279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206440000" />
+    <option name="totallyTimeSpent" value="207719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -403,8 +404,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -414,8 +415,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.0" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.0" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -437,13 +438,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/PrePostBuildTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RemoveNthFromEnd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -726,7 +720,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GetLeastNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="285">
           <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -800,6 +794,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SurfaceArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
         </state>
       </provider>
     </entry>
