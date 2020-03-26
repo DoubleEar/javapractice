@@ -36,18 +36,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetLeastNumbers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GetLeastNumbers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Intersection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Intersection.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,11 +81,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SurfaceArea.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SurfaceArea.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SurfaceArea.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            <state relative-caret-position="19">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumRookCaptures.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NumRookCaptures.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1674">
+              <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+              <folding>
+                <element signature="e#1265#1266#0" expanded="true" />
+                <element signature="e#1322#1323#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/PostorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/IsSubtree.java" />
         <option value="$PROJECT_DIR$/src/IsBalanced.java" />
         <option value="$PROJECT_DIR$/src/RemoveNthFromEnd.java" />
@@ -177,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/IsIsomorphic.java" />
         <option value="$PROJECT_DIR$/src/Massage.java" />
         <option value="$PROJECT_DIR$/src/SurfaceArea.java" />
+        <option value="$PROJECT_DIR$/src/NumRookCaptures.java" />
       </list>
     </option>
   </component>
@@ -190,16 +191,19 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-330" />
-    <option name="y" value="15" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1890" />
+    <option name="height" value="930" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,15 +220,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../剑指Offer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -240,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SurfaceArea">
+  <component name="RunManager" selected="Application.NumRookCaptures">
     <configuration name="IsIsomorphic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IsIsomorphic" />
       <module name="leetcode冲" />
@@ -256,8 +257,8 @@
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MinIncrementForUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MinIncrementForUnique" />
+    <configuration name="NumRookCaptures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumRookCaptures" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -308,19 +309,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MinIncrementForUnique" />
       <item itemvalue="Application.MiddleNode" />
       <item itemvalue="Application.IsIsomorphic" />
       <item itemvalue="Application.Massage" />
       <item itemvalue="Application.SurfaceArea" />
+      <item itemvalue="Application.NumRookCaptures" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumRookCaptures" />
         <item itemvalue="Application.SurfaceArea" />
         <item itemvalue="Application.Massage" />
         <item itemvalue="Application.IsIsomorphic" />
         <item itemvalue="Application.MiddleNode" />
-        <item itemvalue="Application.MinIncrementForUnique" />
       </list>
     </recent_temporary>
   </component>
@@ -386,14 +387,16 @@
       <workItem from="1584947371797" duration="4216000" />
       <workItem from="1585031922739" duration="1500000" />
       <workItem from="1585137493085" duration="1279000" />
+      <workItem from="1585212425326" duration="2762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207719000" />
+    <option name="totallyTimeSpent" value="210481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -434,17 +437,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="84" />
+      <option name="time" value="85" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/RemoveNthFromEnd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PostorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-76">
@@ -799,8 +795,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SurfaceArea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        <state relative-caret-position="19">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NumRookCaptures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <folding>
+            <element signature="e#1265#1266#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
