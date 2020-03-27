@@ -27,15 +27,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestPalindrome.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LongestPalindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Intersection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Intersection.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,14 +81,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumRookCaptures.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumRookCaptures.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NumRookCaptures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1674">
-              <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+            <state relative-caret-position="494">
+              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HasGroupsSizeX.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HasGroupsSizeX.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding>
-                <element signature="e#1265#1266#0" expanded="true" />
-                <element signature="e#1322#1323#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/IsSubtree.java" />
         <option value="$PROJECT_DIR$/src/IsBalanced.java" />
         <option value="$PROJECT_DIR$/src/RemoveNthFromEnd.java" />
         <option value="$PROJECT_DIR$/src/LowestCommonAncestor.java" />
@@ -178,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/Massage.java" />
         <option value="$PROJECT_DIR$/src/SurfaceArea.java" />
         <option value="$PROJECT_DIR$/src/NumRookCaptures.java" />
+        <option value="$PROJECT_DIR$/src/HasGroupsSizeX.java" />
       </list>
     </option>
   </component>
@@ -201,8 +201,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -241,7 +241,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumRookCaptures">
+  <component name="RunManager" selected="Application.HasGroupsSizeX">
+    <configuration name="HasGroupsSizeX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HasGroupsSizeX" />
+      <module name="leetcode冲" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="IsIsomorphic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IsIsomorphic" />
       <module name="leetcode冲" />
@@ -249,11 +254,6 @@
     </configuration>
     <configuration name="Massage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Massage" />
-      <module name="leetcode冲" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="MiddleNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MiddleNode" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -309,19 +309,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MiddleNode" />
       <item itemvalue="Application.IsIsomorphic" />
       <item itemvalue="Application.Massage" />
       <item itemvalue="Application.SurfaceArea" />
       <item itemvalue="Application.NumRookCaptures" />
+      <item itemvalue="Application.HasGroupsSizeX" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HasGroupsSizeX" />
         <item itemvalue="Application.NumRookCaptures" />
         <item itemvalue="Application.SurfaceArea" />
         <item itemvalue="Application.Massage" />
         <item itemvalue="Application.IsIsomorphic" />
-        <item itemvalue="Application.MiddleNode" />
       </list>
     </recent_temporary>
   </component>
@@ -388,15 +388,15 @@
       <workItem from="1585031922739" duration="1500000" />
       <workItem from="1585137493085" duration="1279000" />
       <workItem from="1585212425326" duration="2762000" />
+      <workItem from="1585322757568" duration="309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210481000" />
+    <option name="totallyTimeSpent" value="210790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -437,17 +437,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="85" />
+      <option name="time" value="86" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/PostorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ConstructArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -718,9 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,11 +792,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NumRookCaptures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        <state relative-caret-position="494">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HasGroupsSizeX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding>
-            <element signature="e#1265#1266#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
           </folding>
         </state>
       </provider>
