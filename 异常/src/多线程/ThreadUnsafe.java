@@ -2,7 +2,7 @@ package 多线程;
 
 //线程不安全示例——原子性被破坏了。
 public class ThreadUnsafe {
-    private static long n=0;
+    private static long n=0;    //静态属性，共享的。被修改了。
     static class Add extends Thread{
         @Override
         public void run() {
