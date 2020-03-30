@@ -63,7 +63,7 @@ public class QuickSort {
                 }
             }
         }else {
-            if (arr[mid] > arr[left]) {
+            if (arr[mid] > arr[right]) {
                 return mid;
             } else if (arr[left] < arr[right]) {
                 //arr[mid] <arr[left]   <arr[right]
