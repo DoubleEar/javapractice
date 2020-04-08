@@ -88,9 +88,9 @@ public class QuickSort {
             }
             cur++;
         }
-        //交换key与prev的值
+        //交换key(基准值)与prev(相遇的值)的值
         Heap.swap(arr,prev,left);
-        //注意此时left已经与prev交换了，应该返回prev
+        //应该返回prev(相遇值的下标)，arr[left]已经与arr[prev]交换了,prev所在的下标是基准值。
         return prev;
     }
 
