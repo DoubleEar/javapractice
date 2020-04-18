@@ -9,7 +9,6 @@ public class CopyDirectory {
     private static class CopyFileTask implements Runnable {
         private final String srcPath;
         private final String destPath;
-
         CopyFileTask(String srcPath, String destPath) {
             this.srcPath = srcPath;
             this.destPath = destPath;
