@@ -1,0 +1,36 @@
+CREATE TABLE classes (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(100)
+);
+
+CREATE TABLE students (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  sn VARCHAR(100) NOT NULL UNIQUE,
+  class_id INT NOT NULL,
+  name VARCHAR(100)
+);
+
+CREATE TABLE teachers (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(100)
+);
+
+CREATE TABLE courses (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(100)
+);
+
+CREATE TABLE schedules (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  begin_at DATETIME NOT NULL,
+  course_id INT NOT NULL,
+  teacher_id INT NOT NULL,
+  class_id INT NOT NULL
+);
+
+CREATE TABLE exams (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  student_id INT NOT NULL,
+  course_id INT NOT NULL,
+  score double NOT NULL
+);
