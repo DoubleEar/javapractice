@@ -24,7 +24,6 @@
         <servlet-name>Hello</servlet-name>
         <url-pattern>/go/hello/world/come</url-pattern>
     </servlet-mapping>
-
     <servlet-mapping>
         <servlet-name>World</servlet-name>
         <url-pattern>/fighting</url-pattern>

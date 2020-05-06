@@ -1,5 +1,6 @@
 //树的子结构
 public class IsSubStructure {
+    /*
     //判断两颗子树是否相等
     public static Boolean isPartSame(TreeNode A,TreeNode B){
         //B==null相当于B树遍历结束，返回true。
@@ -22,6 +23,18 @@ public class IsSubStructure {
             return isSubStructure(A.left,B) || isSubStructure(A.right,B);
         return true;
     }
+    */
+
+    public static boolean isSubStructure(TreeNode A, TreeNode B) {
+        if(A==null||B==null) return false;
+        return match(A,B)||isSubStructure(A.left,B)||isSubStructure(A.right,B);
+    }
+    public static boolean match(TreeNode A, TreeNode B){
+        if(B==null) return true;
+        if(A==null||A.val!=B.val) return false;
+        return match(A.left,B.left)&&match(A.right,B.right);
+    }
+
 
     public static void main(String[] args) {
         TreeNode n1=new TreeNode(1);
