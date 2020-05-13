@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-
+//石头剪刀布
 public class RockPaperScissors {
     private static void checkWinner(String[] s,int n){
         Map<String,Integer> map1=new HashMap<>();
