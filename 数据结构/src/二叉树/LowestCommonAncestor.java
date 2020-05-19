@@ -46,7 +46,7 @@ public class LowestCommonAncestor {
     }
     */
     //方法二保存路径
-    public boolean getPath(Node root, Node node, Stack<Node> st) {
+    public static boolean getPath(Node root, Node node, Stack<Node> st) {
         if (root == null)
             return false;
         //入栈
@@ -64,7 +64,7 @@ public class LowestCommonAncestor {
         return false;
     }
 
-    public Node lowestCommonAncestor(Node root, Node p, Node q) {
+    public static Node lowestCommonAncestor(Node root, Node p, Node q) {
         Stack<Node> path1 = new Stack<>();
         Stack<Node> path2 = new Stack<>();
         getPath(root, p, path1);
@@ -86,5 +86,21 @@ public class LowestCommonAncestor {
                 }
             }
         return path1.peek();
+    }
+
+    public static void main(String[] args) {
+        Node n1=new Node(1);
+        Node n2=new Node(2);
+        Node n3=new Node(3);
+        Node n4=new Node(4);
+        Node n5=new Node(5);
+
+        n1.left=n2;
+        n1.right=n3;
+        n2.left=n4;
+        n2.right=n5;
+
+        Node n6=new Node(6);
+        System.out.println(lowestCommonAncestor(n1,n4,n5));
     }
 }
