@@ -14,7 +14,8 @@ public class DB {
         mysqlDataSource.setServerName("127.0.0.1");
         mysqlDataSource.setPort(3306);
         mysqlDataSource.setUser("root");
-        mysqlDataSource.setPassword("");
+       // mysqlDataSource.setPassword("");  //windows
+        mysqlDataSource.setPassword("123456");  //Linux
         mysqlDataSource.setDatabaseName("BLOG");
         mysqlDataSource.setUseSSL(false);
         mysqlDataSource.setCharacterEncoding("utf8");
