@@ -4,6 +4,15 @@ import java.io.IOException;
 
 public abstract class HttpServlet implements Servlet {
     @Override
+    public void init() {
+    }
+
+    @Override
+    public void destroy() {
+
+    }
+
+    @Override
     public void process(ServletRequest req, ServletResponse resp) throws IOException {
         HttpServletRequest httpReq = (HttpServletRequest) req;
         String method = httpReq.getMethod();
