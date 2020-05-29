@@ -3,7 +3,7 @@ import java.util.*;
 public class SimpleErrorLogging {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Map<String, Integer> map = new LinkedHashMap<>();   //保证输入输入的顺序性
+        Map<String, Integer> map = new LinkedHashMap<>();   //保证输入的顺序性
         while (sc.hasNextLine()) {
             String s = sc.nextLine();
             if(s == null || "".equals(s)) break;
