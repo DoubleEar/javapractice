@@ -32,7 +32,7 @@ public class PathSum {
         if(root.right!=null)
             getPath(root.right,curNum,sum);
 
-        //当该叶子节点返回父节点时，删除。
+        //当该叶子节点返回父节点前，删除。
         list.remove(list.size()-1);
     }
 
