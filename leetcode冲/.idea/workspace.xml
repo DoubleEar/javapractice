@@ -24,11 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddTwoNumbers.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddTwoNumbers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AddTwoNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="57">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseWords.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ReverseWords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -57,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BuildTree.java" />
         <option value="$PROJECT_DIR$/src/PrePostBuildTree.java" />
         <option value="$PROJECT_DIR$/src/PostInBuildTree.java" />
         <option value="$PROJECT_DIR$/src/SwapPairs.java" />
@@ -108,6 +116,7 @@
         <option value="$PROJECT_DIR$/src/CopyRandomList.java" />
         <option value="$PROJECT_DIR$/src/ListNode.java" />
         <option value="$PROJECT_DIR$/src/AddTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/src/ReverseWords.java" />
       </list>
     </option>
   </component>
@@ -131,8 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,7 +157,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddTwoNumbers">
+  <component name="RunManager" selected="Application.ReverseWords">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddTwoNumbers" />
       <module name="leetcode冲" />
@@ -192,8 +201,8 @@
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="NumRookCaptures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumRookCaptures" />
+    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseWords" />
       <module name="leetcode冲" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -239,19 +248,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.NumRookCaptures" />
       <item itemvalue="Application.HasGroupsSizeX" />
       <item itemvalue="Application.MinimumLengthEncoding" />
       <item itemvalue="Application.CountAndSay" />
       <item itemvalue="Application.AddTwoNumbers" />
+      <item itemvalue="Application.ReverseWords" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseWords" />
         <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.CountAndSay" />
         <item itemvalue="Application.MinimumLengthEncoding" />
         <item itemvalue="Application.HasGroupsSizeX" />
-        <item itemvalue="Application.NumRookCaptures" />
       </list>
     </recent_temporary>
   </component>
@@ -324,11 +333,12 @@
       <workItem from="1588518160769" duration="375000" />
       <workItem from="1590939282498" duration="991000" />
       <workItem from="1591095570012" duration="2287000" />
+      <workItem from="1591197142958" duration="808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217501000" />
+    <option name="totallyTimeSpent" value="218309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -354,9 +364,9 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.036082473" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -372,17 +382,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="93" />
+      <option name="time" value="96" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MergeTrees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DeleteDuplicates.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-171">
@@ -653,9 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,10 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding>
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,9 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,8 +734,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="57">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReverseWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
