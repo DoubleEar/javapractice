@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="duck1" class="com.dear.model.Duck">
+        <property name="name" value="LadyGaga"/>
+        <property name="age" value="10"/>
+    </bean>
+
+    <bean id="duck2" class="com.dear.model.Duck">
+        <constructor-arg name="name" value="烤鸭"/>
+        <constructor-arg name="age" value="2"/>
+    </bean>
+</beans>
