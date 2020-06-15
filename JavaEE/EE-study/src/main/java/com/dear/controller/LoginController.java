@@ -1,23 +1,41 @@
 package com.dear.controller;
 
 import com.dear.moudel.User;
+import com.dear.service.LoginService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.util.Date;
 
 @Controller
+@RequestMapping("/1")
 public class LoginController {
+
+    //@Autowired
+    //private LoginService loginService;
+
+    @Resource
+    private LoginService loginService;
+
+    @Autowired
+    @Qualifier("user1")
+    private User user1;
+
+    @Resource(name = "user2")
+    private User user2;
 
     @RequestMapping(value = "/login")
     public String login(Integer i){
         if(i==1)
-            return "redirect:/index.html";
+            return "redirect:/index.html";  //重定向
         else
-            return "forward:/index.html";
+            return "forward:/index.html";   //转发
 
     }
 
@@ -60,7 +78,7 @@ public class LoginController {
     @RequestMapping(value = "/login5",method = RequestMethod.POST)
     @ResponseBody
     public Object login5(HttpServletRequest req, HttpServletResponse resp,
-                         @RequestBody User u){
+                          User u){
             if("abc".equals(u.getUsername())&&"123".equals(u.getPassword())){
                 HttpSession httpSession=req.getSession();
                 httpSession.setAttribute("user",u);
@@ -72,6 +90,17 @@ public class LoginController {
             }
 
             throw new RuntimeException("登陆失败");
+    }
+
+    @RequestMapping(value = "/{type}/login6",method = RequestMethod.POST)
+    @ResponseBody
+    public Object login6(@PathVariable("type")String type){
+            System.out.println();
+            User user = new User();
+            user.setUsername("Justin");
+            user.setPassword("789");
+            user.setBirthday(new Date());
+            return user;
     }
 
 }

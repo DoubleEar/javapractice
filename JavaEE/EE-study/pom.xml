@@ -31,6 +31,12 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib-nodep</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+
         <!--        &lt;!&ndash; mybatis-spring-boot-starter: Mybatis框架在SpringBoot中集成的依赖包，-->
         <!--                                Mybatis是一种数据库对象关系映射Object-Relationl Mapping（ORM）框架，-->
         <!--                                其他还有如Hibernate等 &ndash;&gt;-->
