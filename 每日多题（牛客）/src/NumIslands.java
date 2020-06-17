@@ -5,7 +5,7 @@ public class NumIslands {
        岛屿总是被水包围，并且每座岛屿只能由水平方向或竖直方向上相邻的陆地连接形成。
        此外，你可以假设该网格的四条边均被水包围。
 
-       陆地是由岛屿构成的。所以从周围计算，只要是可以连通的陆地都可以构成岛屿。
+       岛屿是由陆地构成的。所以从周围计算，只要是可以连通的陆地都可以构成岛屿。
      */
     static int[][] direction={{-1,0},{1,0},{0,-1},{0,1}};
     private static void DFS(char[][] grid,int[][] visited,int x,int y,int row,int col){

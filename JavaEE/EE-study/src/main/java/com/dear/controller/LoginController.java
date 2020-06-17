@@ -1,6 +1,6 @@
 package com.dear.controller;
 
-import com.dear.moudel.User;
+import com.dear.model.User;
 import com.dear.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
