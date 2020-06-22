@@ -19,6 +19,7 @@ public class CombinationSum {
         }
 
         //可以从上一个位置开始，因为元素可以重复。
+        //传preIndex就避免了之后的结果重复的情况。前面判断过的就不用在判断。
         for(int i=preIndex;i<candidates.length;i++){
             if(curSum>target)
                 continue;
