@@ -1,5 +1,5 @@
 package com.dear.servlet;
-
+//用户登录的servlet处理
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
