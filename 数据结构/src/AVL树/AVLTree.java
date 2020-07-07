@@ -1,5 +1,9 @@
 package AVL树;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class AVLTree {
     //记录树的根结点，如果是空树，则 root == null
     private Node root=null;
@@ -227,7 +231,65 @@ public class AVLTree {
         return false;
     }
 
+    //验证AVL树
     public void verify() {
-        
+        //计算该树的中序遍历
+        List<Integer> inOrderList=new ArrayList<>();
+        inOrder(inOrderList,root);
+        //判断有序：把inOrder与排序后的inOrderList进行对比
+        List<Integer> copyList=new ArrayList<>(inOrderList);
+        Collections.sort(copyList);
+
+        if(!copyList.equals(inOrderList)){
+            throw new RuntimeException("AVL是不满足规则：中序遍历无序");
+        }
+        System.out.println("中序遍历有序，验证成功！");
+
+        //验证每个节点的BF计算是否正确
+        preOrderAndCal(root);
+        System.out.println("BF计算正确，验证成功！");
+
+        //验证每个节点的BF是否为（-1，1，0）
+        perOrderAnaVerifyBF(root);
+        System.out.println("BF满足AVL特性，验证成功！");
+    }
+
+    private static void perOrderAnaVerifyBF(Node node) {
+        if(node!=null) {
+            if (node.bf != 1 && node.bf != 0 && node.bf != -1)
+                throw new RuntimeException("节点（" + node.key + ")的BF是" + node.bf);
+
+            perOrderAnaVerifyBF(node.left);
+            perOrderAnaVerifyBF(node.right);
+        }
+    }
+
+    //计算一棵树的高度
+    private static int getHeight(Node node){
+        if(node==null)
+            return 0;
+        int left=getHeight(node.left);
+        int right=getHeight(node.right);
+        return Math.max(left,right)+1;
+    }
+
+    private static void preOrderAndCal(Node node){
+        if(node!=null) {
+            int left = getHeight(node.left);
+            int right = getHeight(node.right);
+            if (left - right != node.bf)
+                throw new RuntimeException("节点(" + node.key + ")的BF计算有错");
+
+            preOrderAndCal(node.left);
+            preOrderAndCal(node.right);
+        }
+    }
+
+    private static void inOrder(List<Integer> inOrderList,Node node){
+        if(node!=null){
+            inOrder(inOrderList,node.left);
+            inOrderList.add(node.key);
+            inOrder(inOrderList,node.right);
+        }
     }
 }
