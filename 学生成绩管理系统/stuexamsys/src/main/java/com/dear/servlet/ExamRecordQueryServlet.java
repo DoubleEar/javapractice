@@ -1,5 +1,5 @@
 package com.dear.servlet;
-//成绩查询的servlet处理
+//查询学生考试成绩的servlet处理
 import com.dear.dao.ExamRecordDAO;
 import com.dear.model.ExamRecord;
 

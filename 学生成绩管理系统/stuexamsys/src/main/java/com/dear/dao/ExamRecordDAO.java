@@ -85,4 +85,8 @@ public class ExamRecordDAO {
         }
         return records;
     }
+
+    public static ExamRecord queryById() {
+
+    }
 }

@@ -11,7 +11,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class Exam {
+public class Exam extends DictionaryTag{
 
     private Integer id;
 
@@ -39,4 +39,8 @@ public class Exam {
      * 创建时间
      */
     private Date createTime;
+
+    private Classes classes;
+
+    private Course course;
 }
