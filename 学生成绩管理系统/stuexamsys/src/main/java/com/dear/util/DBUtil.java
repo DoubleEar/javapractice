@@ -1,5 +1,5 @@
 package com.dear.util;
-//数据库连接
+//数据库连接的工具类
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 
 import javax.sql.DataSource;
