@@ -11,7 +11,8 @@ import java.util.Date;
 import java.util.List;
 
 public class ExamRecordDAO {
-    public static List<ExamRecord> query() {
+    //查询所有的考试成绩
+    public static List<ExamRecord> query(Page page) {
         List<ExamRecord> records=new ArrayList<>();
         Connection c=null;
         PreparedStatement ps=null;
@@ -19,7 +20,7 @@ public class ExamRecordDAO {
 
         try{
             c= DBUtil.getConnection();
-            String sql="select\n" +
+            StringBuilder sql=new StringBuilder("select\n" +
                     "  er.id,\n" +
                     "  er.score,\n" +
                     "  er.student_id,\n" +
@@ -39,8 +40,40 @@ public class ExamRecordDAO {
                     "  s.id_card prefix_s_id_card,\n" +
                     "  s.student_email prefix_s_student_email\n" +
                     "from exam_record er join exam e on er.exam_id = e.id join classes c on e.classes_id = c.id\n" +
-                    "join course c2 on e.course_id = c2.id join student s on c.id = s.classes_id";
-            ps=c.prepareStatement(sql);
+                    "join course c2 on e.course_id = c2.id join student s on c.id = s.classes_id");
+            if(page.getSearchText()!=null){
+                sql.append(" where s.student_name like ?");
+            }
+
+            //查询总的条数
+            StringBuilder countSQL=new StringBuilder("select count(0) count from (");
+            countSQL.append(sql);
+            countSQL.append(") tmp");
+            ps=c.prepareStatement(countSQL.toString());
+            if(page.getSearchText()!=null){
+                ps.setString(1,"%"+page.getSearchText()+"%");
+            }
+            rs=ps.executeQuery();
+            while (rs.next()){
+                int total=rs.getInt("count");
+                Response.setPageTotal(total);
+            }
+
+
+            //查询表格数据
+            sql.append(" order by er.create_time "+page.getSortOrder());
+            sql.append(" limit ?,?");    //从第几条记录开始筛选多少条记录
+            ps=c.prepareStatement(sql.toString());
+            int i=1;
+            if(page.getSearchText()!=null){
+                ps.setString(i,"%"+page.getSearchText()+"%");
+                i++;
+            }
+            //比如第一页，每一页10条数据：（1-1）*10+1
+            // 第二页：（2-1）*10+1
+            ps.setInt(i,(page.getPageNumber()-1)*page.getPageSize()+1);
+            i++;
+            ps.setInt(i,page.getPageSize());
             rs=ps.executeQuery();
             while (rs.next()){
                 //设置考试成绩对象
@@ -86,6 +119,7 @@ public class ExamRecordDAO {
         return records;
     }
 
+    //通过考试成绩id查询考试成绩
     public static ExamRecord queryById(int id) {
         ExamRecord er=new ExamRecord();
         Connection c=null;
@@ -164,6 +198,7 @@ public class ExamRecordDAO {
         return er;
     }
 
+    //插入考试成绩
     public static int insert(ExamRecord record) {
         Connection c=null;
         PreparedStatement ps=null;
@@ -181,6 +216,7 @@ public class ExamRecordDAO {
         }
     }
 
+    //修改考试成绩
     public static int update(ExamRecord record) {
         Connection c=null;
         PreparedStatement ps=null;
@@ -199,6 +235,7 @@ public class ExamRecordDAO {
         }
     }
 
+    //删除考试成绩
     public static int delete(String[] ids) {
         Connection c=null;
         PreparedStatement ps=null;
