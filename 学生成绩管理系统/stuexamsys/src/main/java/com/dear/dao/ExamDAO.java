@@ -59,6 +59,8 @@ public class ExamDAO {
             }
         }catch (Exception e){
             throw new RuntimeException("查询考试数据字典出错",e);
+        }finally {
+            DBUtil.close(c,ps,rs);
         }
         return exams;
     }

@@ -31,6 +31,8 @@ public class StudentDAO {
             }
         }catch (Exception e){
             throw new RuntimeException("查询学生数据字典出错",e);
+        }finally {
+            DBUtil.close(c,ps,rs);
         }
         return tags;
     }

@@ -115,6 +115,8 @@ public class ExamRecordDAO {
             }
         }catch (Exception e){
             throw new RuntimeException("查询考试成绩列表出错",e);
+        }finally {
+            DBUtil.close(c,ps,rs);
         }
         return records;
     }
@@ -194,6 +196,8 @@ public class ExamRecordDAO {
             }
         }catch (Exception e){
             throw new RuntimeException("查询考试成绩详情出错",e);
+        }finally {
+            DBUtil.close(c,ps,rs);
         }
         return er;
     }
@@ -213,6 +217,8 @@ public class ExamRecordDAO {
             return ps.executeUpdate();
         }catch (Exception e){
             throw new RuntimeException("插入考试成绩出错",e);
+        }finally {
+            DBUtil.close(c,ps);
         }
     }
 
@@ -232,6 +238,8 @@ public class ExamRecordDAO {
             return ps.executeUpdate();
         }catch (Exception e){
             throw new RuntimeException("修改考试成绩出错",e);
+        }finally {
+            DBUtil.close(c,ps);
         }
     }
 
@@ -256,6 +264,8 @@ public class ExamRecordDAO {
             return ps.executeUpdate();
         }catch (Exception e){
             throw new RuntimeException("删除考试成绩出错",e);
+        }finally {
+            DBUtil.close(c,ps);
         }
     }
 }
