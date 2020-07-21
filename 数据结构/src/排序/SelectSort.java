@@ -21,6 +21,8 @@ public class SelectSort {
             swap(nums,maxValue,end);
         }
     }
+
+
     //双向选择排序，选择小的放在最开始，选择大的放在最后
     public static void selectSort2(int[] nums){
         int begin=0;
