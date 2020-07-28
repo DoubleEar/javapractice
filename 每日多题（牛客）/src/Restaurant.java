@@ -38,7 +38,7 @@ public class Restaurant {
             for(int i=0;i<m;i++){
                 int a=sc.nextInt();
                 int b=sc.nextInt();
-                if(desk[n-1]>=a)    //如果客人的人数大于桌子最大容纳量就offer
+                if(desk[n-1]>=a)    //如果客人的人数小于桌子最大容纳量就offer
                     pq.offer(new Customer(a,b));
             }
 
