@@ -3,7 +3,6 @@ import com.alibaba.fastjson.JSONObject;
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 //查询所有发布的问卷信息
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -13,7 +12,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-@WebServlet("/API/list-surveys.json")
+
 public class ListSurvey extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
