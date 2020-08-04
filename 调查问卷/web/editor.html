@@ -17,10 +17,28 @@
     <h2>Tab 显示区</h2>
     <div>基本信息 Tab</div>
     <div id="tabs"></div>
-    <div>添加一页 Tab</div>
+    <div id="add-tab">添加一页</div>
     <div>致谢信息 Tab</div>
     <hr>
     <h2>主题内容区</h2>
     <div id="content"></div>
+
+    <script src="/js/ajax.js" charset="utf-8"></script>
+    <script src="/js/survey.js" charset="utf-8"></script>
+    <script src="/js/editor-ui.js" charset="utf-8"></script>
+    <script src="/js/editor.js" charset="utf-8"></script>
+    <script>
+        window.onload=function() {
+            Survey.load(1399)
+                .then(survey => {
+                    let editorUI = new EditorUI();
+                    let editor=new Editor(survey,editorUI);
+                    editor.start();
+                })
+                .catch(error => {
+                    console.error(error);
+                });
+        };
+    </script>
 </body>
 </html>
