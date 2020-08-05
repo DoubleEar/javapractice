@@ -19,6 +19,24 @@ class Survey {
         return this.data.pages.length;
     }
 
+    getBasic(){
+        return {
+            title:this.data.title,
+            brief:this.data.brief,
+            coverUrl:this.data.coverUrl
+        }
+    }
+
+    getThanks(){
+        return{
+            thanks:this.data.thanks
+        };
+    }
+
+    getPage(pid){
+        return this.data.pages[pid-1];
+    }
+
 
     //根据sid，从后台获取相应的调查问卷数据，并构建survey对象
     static load(sid){
