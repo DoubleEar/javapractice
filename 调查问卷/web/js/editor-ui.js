@@ -6,7 +6,7 @@
 class EditorUI{
     currentPid=0;
     tabs=document.querySelector("#tabs");
-    contentPanel=document.querySelector("content");
+    contentPanel=document.querySelector("#content");
 
     getAddTabButton(){
         //返回 html中id等于add-tab的元素
@@ -52,5 +52,17 @@ class EditorUI{
         }else{
             this.showPageContent(pid,data);
         }
+    }
+
+    showBasicContent(data){
+        console.log(data);
+    }
+
+    showThanksContent(data){
+        console.log(data);
+    }
+
+    showPageContent(data){
+        console.log(data);
     }
 }
