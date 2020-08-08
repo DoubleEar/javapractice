@@ -10,7 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
+//调查问卷列表展示
 public class SurveyService {
     public List<Survey> list() throws SQLException {
         List<Survey> surveyList = new ArrayList<>();

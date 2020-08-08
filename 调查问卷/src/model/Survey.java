@@ -1,7 +1,7 @@
 package model;
 
 import com.alibaba.fastjson.JSONObject;
-
+//问卷数据
 public class Survey {
     public Integer sid;
     public User user;

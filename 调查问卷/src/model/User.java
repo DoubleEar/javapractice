@@ -1,7 +1,7 @@
 package model;
 
 import com.alibaba.fastjson.JSONObject;
-
+//用户数据
 public class User {
     public Integer uid;
     public String username;
