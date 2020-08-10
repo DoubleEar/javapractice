@@ -11,6 +11,8 @@ class Editor{
     bindEvents(){
         console.log(this);  //editor对象
         this.editorUI.getAddTabButton().onclick=this.returnAddTabAction();
+        this.editorUI.getBasicTabButton().onclick=this.returnActiveAction();
+        this.editorUI.getThanksTabButton().onclick=this.returnActiveAction();
     }
 
     returnAddTabAction(){

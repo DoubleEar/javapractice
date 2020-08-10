@@ -65,4 +65,8 @@ class EditorUI{
     showPageContent(data){
         console.log(data);
     }
+
+    getBasicTabButton(){
+        return document.querySelector("#basic-tab");
+    }
 }
