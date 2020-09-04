@@ -20,7 +20,8 @@ create table survey(
 
 create table questions(
   qid int primary key auto_increment,
-  uid int not null,
+  sid int not null,
+  pid int not null comment 'pid相同属于同一页',
   question varchar(100) not null,
   type varchar (10) not null,
   options text comment'$分割的线性结构【选项中不会出现$】'

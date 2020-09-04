@@ -7,21 +7,22 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public interface JSONSerializable<T> {
-    //将java对象序列化成JSON格式
+    // 把 Java 对象序列化成 JSON 格式
     JSONObject toJSON(T model);
-    default JSONArray toJSON(List<T> modelList){
-        JSONArray array=new JSONArray();
-        for(T model:modelList){
+
+    default JSONArray toJSON(List<T> modelList) {
+        JSONArray array = new JSONArray();
+        for (T model : modelList) {
             array.add(toJSON(model));
         }
         return array;
     }
 
-    //把JSON格式反序列化为java对象
+    // 把 JSON 格式，反序列化成 Java 对象
     T fromJSON(JSONObject object);
-    default List<T> fromJSON(JSONArray array){
-        return array.stream().map(o->(JSONObject)o)     //Object -> JSONObject
-                .map(this::fromJSON)                    //fromJSON(JSONObject object) -> T
-                .collect(Collectors.toList());          //List<T>
+    default List<T> fromJSON(JSONArray array) {
+        return array.stream().map(o -> (JSONObject)o)      // Object -> JSONObject
+                .map(this::fromJSON)                // fromJSON(JSONObject object) -> T
+                .collect(Collectors.toList());      // List<T>
     }
 }
